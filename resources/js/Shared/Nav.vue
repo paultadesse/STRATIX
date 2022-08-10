@@ -1,9 +1,9 @@
 <template>
 	<nav>
-		<li class="list-none space-x-12 uppercase font-light tracking-wider">
-			<NavLink href="/achivments" :active="$page.component === 'Achivments'">Achivments</NavLink>
-			<NavLink href="/about" :active="$page.component === 'About'">About</NavLink>
-			<NavLink href="/">Contact</NavLink>
+		<li class="list-none space-x-12 uppercase tracking-wider ">
+			<NavLink href="/achivments" :active="$page.component === 'Achivments'" class="hover:font-bold" >Achivments</NavLink>
+			<NavLink href="/about" :active="$page.component === 'About'" class="hover:font-bold">About</NavLink>
+			<NavLink href="/" class="hover:font-bold">Contact</NavLink>
 		</li>
 	</nav>
 </template>
