@@ -1,7 +1,7 @@
 <template>
 	<nav>
 		<li class="list-none space-x-12 uppercase tracking-wider ">
-			<NavLink href="/achivments" :active="$page.component === 'Achivments'" class="hover:font-bold" >Achivments</NavLink>
+			<NavLink href="/achivments" :active="$page.component === 'Achivments'" class="hover:font-bold" >Works</NavLink>
 			<NavLink href="/about" :active="$page.component === 'About'" class="hover:font-bold">About</NavLink>
 			<NavLink href="/" class="hover:font-bold">Contact</NavLink>
 		</li>

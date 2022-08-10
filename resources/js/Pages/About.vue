@@ -1,7 +1,76 @@
 <template>
-	<div class="space-y-12">
+	<div class="space-y-20 px-12">
 		<div class="flex justify-center">
-			<h1 class="tracking-wider text-4xl">Stratix Family</h1>
+			<h2 class="relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide first-letter:text-7xl hover:scale-105 transition ease-in delay-100">we design with the future in mind.</h2>
+		</div>
+		<div class="flex justify-center">
+			<p class=" max-w-2xl text-center first-letter:text-2xl">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p>
+		</div>
+		<div>
+			<div class="flex">
+				<div class="shrink-0">
+					<img class="h-[650px] hover:scale-95 transition ease-in delay-100" src="https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&resize=1024x768">
+				</div>
+				<div class="flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200">
+					<div class="border p-8 space-y-10">	
+						<div class="space-y-2">
+							<p class="text-2xl font-bold uppercase tracking-wider">help big brands stay mighty</p>
+							<hr class="w-1/6 border-2 border-black">
+						</div>
+						<p class="text-gray-500 first-letter:text-2xl tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p class="text-sm tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 float-right hover:scale-125 transition ease-in delay-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  <path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex flex-row-reverse">
+				<div class="shrink-0">
+					<img class="h-[650px] hover:scale-95 transition ease-in delay-200" src="https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&resize=1024x768">
+				</div>
+				<div class="flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200">
+					<div class="border p-8 space-y-10">
+						<div class="space-y-2">
+							<p class="text-2xl font-bold uppercase tracking-wider">We help grow your business</p>
+							<hr class="w-1/6 border-2 border-black">
+						</div>	
+						<p class="text-gray-500 first-letter:text-2xl tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p class="text-sm tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 float-right hover:scale-125 transition ease-in delay-100" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  <path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- meet the team -->
+		<div class="flex justify-center">
+			<p class="text-5xl">Meet The Team</p>
 		</div>
 		<div class="flex justify-center">
 			<div class="grid grid-cols-3 gap-2">
