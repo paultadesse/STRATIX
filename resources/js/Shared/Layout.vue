@@ -2,8 +2,8 @@
 	<!-- <div class="relative"> -->
 	<section class="">
 		<header class="flex justify-between items-center px-12 py-6">
-			<div class="border border-8 border-black px-2">
-				<NavLink href="/" class="uppercase text-5xl font-semibold">
+			<div class="border border-4 border-black px-4">
+				<NavLink href="/" class="uppercase text-3xl font-semibold tracking-wider">
 					Stratix
 				</NavLink>
 			</div>
