@@ -8,7 +8,7 @@
         :particleOpacity="0.7"
         :particlesNumber="80"
         shapeType="triangle"
-        :particleSize="4"
+        :particleSize="5"
         linesColor="#44403c"
         :linesWidth="1"
         :lineLinked="true"
@@ -66,10 +66,59 @@
 		</div>
 	</div>
 
-	<!-- another sction -->
+	<!-- what we do -->
+
+	<div class="px-12 py-12">
+		<div class="py-12 flex justify-center">
+			<div class="max-w-3xl">
+				<h2 class="text-center text-2xl font-bold uppercase tracking-wider">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2>
+			</div>
+				
+		</div>
+		<div class="grid grid-cols-2 shadow-xl border p-4 border-gray-100">
+			<div class="p-7">
+				<div class="p-4 space-y-4 shadow">
+					<p class="uppercase tracking-wider font-bold">social media strategy</p>
+					<hr class="w-1/6 border-black">
+					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p>
+				</div>
+			</div>
+
+			<div class="p-7">
+				<div class="p-4 space-y-4 shadow">
+					<p class="uppercase tracking-wider font-bold">brand identity</p>
+					<hr class="w-1/6 border-black">
+					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer.
+					<br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p>
+				</div>
+			</div>
+
+			<div class="p-7">
+				<div class="p-4 space-y-4 shadow">
+					<p class="uppercase tracking-wider font-bold">research & insight</p>
+					<hr class="w-1/6 border-black">
+					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p>
+				</div>
+			</div>
+
+			<div class="p-7">
+				<div class="p-4 space-y-4 shadow">
+					<p class="uppercase tracking-wider font-bold">marketing video production</p>
+					<hr class="w-1/6 border-black">
+					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- testimonials sction -->
 
 	<div class="py-7 px-12">
 		<div class="space-y-4">
+			<div class="py-4">
+				<h2 class="text-center text-2xl font-bold uppercase">Testimonials</h2>
+			</div>
 			<div class="flex space-x-2">
 				<div>
 					<img class="hover:scale-105 transition ease-in delay-100" src="https://media.istockphoto.com/photos/side-portrait-of-african-american-man-staring-picture-id935110490?k=20&m=935110490&s=612x612&w=0&h=mB-pKUFbT3Vl4ArAi0LDr-W8y647-nxMVeHyPadYb60=">

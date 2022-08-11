@@ -77,7 +77,7 @@
 		</div>
 		<div class="flex justify-center">
 			<div class="grid grid-cols-3 gap-2">
-				<div class="shadow p-4" v-for="i in 5" :key="i">
+				<div class="shadow p-4" v-for="i in 3" :key="i">
 					<img class="h-[350px] w-auto hover:scale-105 transition ease-in delay-100 hover:shadow-2xl shadow-xl" src="https://media.istockphoto.com/photos/black-and-white-portrait-of-fashion-blond-woman-with-short-hair-picture-id960471134?k=20&m=960471134&s=612x612&w=0&h=hmf2Ywv_ALLRxur6AEvaZE5Bw-5hj7pdtk5u7hv_gWc=">
 					<div class="max-w-md space-y-2 mt-4">
 						<p class="text-lg font-bold">Naz</p>
