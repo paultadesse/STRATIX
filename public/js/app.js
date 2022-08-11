@@ -25,6 +25,18 @@ function e(e){return e&&"object"==typeof e&&"default"in e?e.default:e}var t=e(__
 
 /***/ }),
 
+/***/ "./node_modules/@inertiajs/progress/dist/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@inertiajs/progress/dist/index.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var n,e=(n=__webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js"))&&"object"==typeof n&&"default"in n?n.default:n,t=null;function r(n){document.addEventListener("inertia:start",o.bind(null,n)),document.addEventListener("inertia:progress",i),document.addEventListener("inertia:finish",s)}function o(n){t=setTimeout(function(){return e.start()},n)}function i(n){e.isStarted()&&n.detail.progress.percentage&&e.set(Math.max(e.status,n.detail.progress.percentage/100*.9))}function s(n){clearTimeout(t),e.isStarted()&&(n.detail.visit.completed?e.done():n.detail.visit.interrupted?e.set(0):n.detail.visit.cancelled&&(e.done(),e.remove()))}exports.InertiaProgress={init:function(n){var t=void 0===n?{}:n,o=t.delay,i=t.color,s=void 0===i?"#29d":i,a=t.includeCSS,p=void 0===a||a,d=t.showSpinner,l=void 0!==d&&d;r(void 0===o?250:o),e.configure({showSpinner:l}),p&&function(n){var e=document.createElement("style");e.type="text/css",e.textContent="\n    #nprogress {\n      pointer-events: none;\n    }\n\n    #nprogress .bar {\n      background: "+n+";\n\n      position: fixed;\n      z-index: 1031;\n      top: 0;\n      left: 0;\n\n      width: 100%;\n      height: 2px;\n    }\n\n    #nprogress .peg {\n      display: block;\n      position: absolute;\n      right: 0px;\n      width: 100px;\n      height: 100%;\n      box-shadow: 0 0 10px "+n+", 0 0 5px "+n+";\n      opacity: 1.0;\n\n      -webkit-transform: rotate(3deg) translate(0px, -4px);\n          -ms-transform: rotate(3deg) translate(0px, -4px);\n              transform: rotate(3deg) translate(0px, -4px);\n    }\n\n    #nprogress .spinner {\n      display: block;\n      position: fixed;\n      z-index: 1031;\n      top: 15px;\n      right: 15px;\n    }\n\n    #nprogress .spinner-icon {\n      width: 18px;\n      height: 18px;\n      box-sizing: border-box;\n\n      border: solid 2px transparent;\n      border-top-color: "+n+";\n      border-left-color: "+n+";\n      border-radius: 50%;\n\n      -webkit-animation: nprogress-spinner 400ms linear infinite;\n              animation: nprogress-spinner 400ms linear infinite;\n    }\n\n    .nprogress-custom-parent {\n      overflow: hidden;\n      position: relative;\n    }\n\n    .nprogress-custom-parent #nprogress .spinner,\n    .nprogress-custom-parent #nprogress .bar {\n      position: absolute;\n    }\n\n    @-webkit-keyframes nprogress-spinner {\n      0%   { -webkit-transform: rotate(0deg); }\n      100% { -webkit-transform: rotate(360deg); }\n    }\n    @keyframes nprogress-spinner {\n      0%   { transform: rotate(0deg); }\n      100% { transform: rotate(360deg); }\n    }\n  ",document.head.appendChild(e)}(s)}};
+//# sourceMappingURL=index.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js ***!
@@ -19700,13 +19712,17 @@ var _hoisted_1 = {
   "class": "space-y-20 px-12"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center\"><h2 class=\"relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide first-letter:text-7xl hover:scale-105 transition ease-in delay-100\">we design with the future in mind.</h2></div><div class=\"flex justify-center\"><p class=\"max-w-2xl text-center first-letter:text-2xl\">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p></div><div><div class=\"flex\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-100\" src=\"https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider\">help big brands stay mighty</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-200\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div><div class=\"flex flex-row-reverse\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-200\" src=\"https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider\">We help grow your business</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-100\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center\"><h2 class=\"relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100\">we design with the future in mind.</h2></div><div class=\"flex justify-center\"><p class=\"max-w-2xl text-center font-light tracking-wide\">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p></div><div><div class=\"flex\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-100\" src=\"https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider\">help big brands stay mighty</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-200\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div><div class=\"flex flex-row-reverse\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-200\" src=\"https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider\">We help grow your business</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-100\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div></div>", 3);
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "space-y-2"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-5xl"
-}, "Meet The Team")], -1
+  "class": "text-4xl font-semibold tracking-wider uppercase"
+}, "Meet The Team"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "w-1/3 border-2 border-black mx-auto"
+})])], -1
 /* HOISTED */
 );
 
@@ -19717,13 +19733,13 @@ var _hoisted_7 = {
   "class": "grid grid-cols-3 gap-2"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<img class=\"h-[350px] w-auto border\" src=\"https://media.istockphoto.com/photos/black-and-white-portrait-of-fashion-blond-woman-with-short-hair-picture-id960471134?k=20&amp;m=960471134&amp;s=612x612&amp;w=0&amp;h=hmf2Ywv_ALLRxur6AEvaZE5Bw-5hj7pdtk5u7hv_gWc=\"><div class=\"max-w-md space-y-2\"><p>Naz</p><p>Addis Ababa</p><p class=\"text-gray-400 text-sm\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p><div class=\"flex space-x-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill-rule=\"nonzero\" d=\"M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z\"></path></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.0215 3.3434C15.5299 3.25632 16.0992 3.22724 16.6349 3.31789C17.5918 3.47977 18.4756 3.9245 19.1743 4.59126C19.631 4.60158 20.0798 4.51161 20.4769 4.38335C20.8131 4.2748 21.097 4.14373 21.2959 4.04009C21.3948 3.98856 21.4713 3.9446 21.5209 3.91484C21.5457 3.89998 21.5638 3.88874 21.5745 3.88195L21.584 3.87589C21.8808 3.67816 22.276 3.71664 22.5289 3.96815C22.7818 4.21971 22.8226 4.61463 22.6263 4.91254C22.4186 5.22783 22.1303 5.7899 21.8072 6.41966C21.7564 6.51868 21.7047 6.61937 21.6524 6.72104C21.4671 7.08101 21.2771 7.44482 21.1 7.75695C20.9888 7.95294 20.8699 8.15191 20.75 8.32385V8.59763C20.7576 9.60326 20.6423 10.6036 20.4082 11.5769C20.2609 12.1892 20.0667 12.7908 19.8264 13.3762C19.204 14.8928 18.2856 16.2703 17.1249 17.428C15.9641 18.5858 14.5844 19.5006 13.0661 20.1192C11.5492 20.7372 9.92444 21.047 8.28659 21.0305C5.91228 21.0326 3.58791 20.3485 1.59319 19.0606C1.29939 18.8709 1.17569 18.5033 1.29503 18.1746C1.41437 17.8459 1.74506 17.6433 2.09213 17.6862C2.39249 17.7234 2.6949 17.7415 2.99756 17.7405C4.08501 17.7375 5.15174 17.4972 6.12561 17.0446C5.81606 16.9037 5.52052 16.7299 5.24437 16.5251C4.43265 15.9232 3.82874 15.0833 3.51667 14.1221C3.43558 13.8724 3.49102 13.5984 3.66283 13.3998C3.66591 13.3963 3.66902 13.3927 3.67215 13.3892C3.48862 13.2256 3.3169 13.0474 3.1588 12.8558C2.44748 11.9936 2.05581 10.9121 2.05002 9.7944L2.05 9.79053L2.05001 9.74053C2.05001 9.47466 2.19077 9.22867 2.41997 9.09395C2.47807 9.05979 2.53965 9.03409 2.603 9.01685C2.26467 8.34177 2.08873 7.59632 2.09001 6.84006C2.08961 5.98329 2.31341 5.14133 2.73917 4.39782C2.86208 4.18319 3.08291 4.04295 3.32944 4.02298C3.57597 4.003 3.8165 4.10585 3.97236 4.2979C4.93491 5.48391 6.1362 6.45417 7.49819 7.14564C8.19833 7.50109 8.93288 7.77879 9.68867 7.97522C10.1124 8.08535 10.5428 8.16994 10.9776 8.22836C10.9584 7.50511 11.1013 6.78224 11.401 6.11431C11.8407 5.13448 12.5931 4.3283 13.5404 3.82221C13.9415 3.60788 14.474 3.43717 15.0215 3.3434ZM3.74329 10.8909C3.87294 11.2558 4.0658 11.5981 4.31586 11.9012C4.80718 12.4967 5.48913 12.9043 6.24635 13.0549C6.58363 13.122 6.83207 13.4099 6.84909 13.7534C6.86612 14.0969 6.64737 14.4079 6.31837 14.508C6.04588 14.591 5.7667 14.6487 5.48434 14.6808C5.67093 14.9213 5.8904 15.1368 6.13781 15.3202C6.699 15.7364 7.37594 15.9672 8.07445 15.9807C8.39137 15.9868 8.67023 16.1914 8.77106 16.492C8.87189 16.7925 8.7729 17.1239 8.5238 17.3199C7.47463 18.1455 6.26143 18.7211 4.97588 19.015C6.04136 19.3562 7.15881 19.5319 8.2891 19.5305L8.2978 19.5305C9.73786 19.5455 11.1665 19.2734 12.5002 18.73C13.8339 18.1867 15.0459 17.383 16.0656 16.366C17.0852 15.349 17.892 14.139 18.4387 12.8067C18.6498 12.2925 18.8204 11.764 18.9498 11.2261C19.1556 10.3703 19.257 9.49065 19.25 8.60639L19.25 8.60052V8.07053C19.25 7.88867 19.3161 7.71301 19.4359 7.57624C19.5052 7.4972 19.6264 7.31464 19.7954 7.01674C19.956 6.73362 20.1338 6.39371 20.3187 6.03453C20.3299 6.0128 20.3411 5.99097 20.3524 5.96903C19.8728 6.07318 19.3293 6.12777 18.7594 6.06618C18.579 6.04668 18.4117 5.96239 18.2887 5.82895C17.7858 5.28362 17.1161 4.92061 16.3847 4.79687C16.0602 4.74196 15.6678 4.75453 15.2747 4.82187C14.8476 4.89503 14.4759 5.02304 14.2472 5.14522C13.593 5.49479 13.0732 6.05163 12.7695 6.72842C12.4658 7.4052 12.3953 8.16365 12.5691 8.88481C12.6245 9.11472 12.5683 9.3573 12.4173 9.53933C12.2663 9.72136 12.0383 9.82151 11.8021 9.80957C10.9587 9.76691 10.1242 9.63826 9.31135 9.42699C8.45146 9.2035 7.61572 8.88755 6.81915 8.48314C5.64637 7.88773 4.57832 7.11063 3.65348 6.18294C3.61129 6.39855 3.58987 6.61858 3.59001 6.84003L3.59001 6.84195C3.58897 7.39267 3.72412 7.9351 3.98343 8.42095C4.24274 8.9068 4.61816 9.32099 5.07627 9.62664C5.35429 9.81214 5.47602 10.1592 5.37477 10.4777C5.27351 10.7963 4.97372 11.0093 4.63962 11.0002C4.33702 10.992 4.03696 10.9552 3.74329 10.8909Z\" fill=\"black\"></path></svg></div></div>", 2);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<img class=\"h-[350px] w-auto hover:scale-105 transition ease-in delay-100 hover:shadow-2xl shadow-xl\" src=\"https://media.istockphoto.com/photos/black-and-white-portrait-of-fashion-blond-woman-with-short-hair-picture-id960471134?k=20&amp;m=960471134&amp;s=612x612&amp;w=0&amp;h=hmf2Ywv_ALLRxur6AEvaZE5Bw-5hj7pdtk5u7hv_gWc=\"><div class=\"max-w-md space-y-2 mt-4\"><p class=\"text-lg font-bold\">Naz</p><p>Addis Ababa</p><p class=\"text-gray-500 italic text-sm tracking-wider font-light\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p><hr class=\"w-1/6 border border-gray-100\"><div class=\"flex space-x-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" class=\"opacity-50\"><g><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill-rule=\"nonzero\" d=\"M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z\"></path></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" class=\"opacity-50\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.0215 3.3434C15.5299 3.25632 16.0992 3.22724 16.6349 3.31789C17.5918 3.47977 18.4756 3.9245 19.1743 4.59126C19.631 4.60158 20.0798 4.51161 20.4769 4.38335C20.8131 4.2748 21.097 4.14373 21.2959 4.04009C21.3948 3.98856 21.4713 3.9446 21.5209 3.91484C21.5457 3.89998 21.5638 3.88874 21.5745 3.88195L21.584 3.87589C21.8808 3.67816 22.276 3.71664 22.5289 3.96815C22.7818 4.21971 22.8226 4.61463 22.6263 4.91254C22.4186 5.22783 22.1303 5.7899 21.8072 6.41966C21.7564 6.51868 21.7047 6.61937 21.6524 6.72104C21.4671 7.08101 21.2771 7.44482 21.1 7.75695C20.9888 7.95294 20.8699 8.15191 20.75 8.32385V8.59763C20.7576 9.60326 20.6423 10.6036 20.4082 11.5769C20.2609 12.1892 20.0667 12.7908 19.8264 13.3762C19.204 14.8928 18.2856 16.2703 17.1249 17.428C15.9641 18.5858 14.5844 19.5006 13.0661 20.1192C11.5492 20.7372 9.92444 21.047 8.28659 21.0305C5.91228 21.0326 3.58791 20.3485 1.59319 19.0606C1.29939 18.8709 1.17569 18.5033 1.29503 18.1746C1.41437 17.8459 1.74506 17.6433 2.09213 17.6862C2.39249 17.7234 2.6949 17.7415 2.99756 17.7405C4.08501 17.7375 5.15174 17.4972 6.12561 17.0446C5.81606 16.9037 5.52052 16.7299 5.24437 16.5251C4.43265 15.9232 3.82874 15.0833 3.51667 14.1221C3.43558 13.8724 3.49102 13.5984 3.66283 13.3998C3.66591 13.3963 3.66902 13.3927 3.67215 13.3892C3.48862 13.2256 3.3169 13.0474 3.1588 12.8558C2.44748 11.9936 2.05581 10.9121 2.05002 9.7944L2.05 9.79053L2.05001 9.74053C2.05001 9.47466 2.19077 9.22867 2.41997 9.09395C2.47807 9.05979 2.53965 9.03409 2.603 9.01685C2.26467 8.34177 2.08873 7.59632 2.09001 6.84006C2.08961 5.98329 2.31341 5.14133 2.73917 4.39782C2.86208 4.18319 3.08291 4.04295 3.32944 4.02298C3.57597 4.003 3.8165 4.10585 3.97236 4.2979C4.93491 5.48391 6.1362 6.45417 7.49819 7.14564C8.19833 7.50109 8.93288 7.77879 9.68867 7.97522C10.1124 8.08535 10.5428 8.16994 10.9776 8.22836C10.9584 7.50511 11.1013 6.78224 11.401 6.11431C11.8407 5.13448 12.5931 4.3283 13.5404 3.82221C13.9415 3.60788 14.474 3.43717 15.0215 3.3434ZM3.74329 10.8909C3.87294 11.2558 4.0658 11.5981 4.31586 11.9012C4.80718 12.4967 5.48913 12.9043 6.24635 13.0549C6.58363 13.122 6.83207 13.4099 6.84909 13.7534C6.86612 14.0969 6.64737 14.4079 6.31837 14.508C6.04588 14.591 5.7667 14.6487 5.48434 14.6808C5.67093 14.9213 5.8904 15.1368 6.13781 15.3202C6.699 15.7364 7.37594 15.9672 8.07445 15.9807C8.39137 15.9868 8.67023 16.1914 8.77106 16.492C8.87189 16.7925 8.7729 17.1239 8.5238 17.3199C7.47463 18.1455 6.26143 18.7211 4.97588 19.015C6.04136 19.3562 7.15881 19.5319 8.2891 19.5305L8.2978 19.5305C9.73786 19.5455 11.1665 19.2734 12.5002 18.73C13.8339 18.1867 15.0459 17.383 16.0656 16.366C17.0852 15.349 17.892 14.139 18.4387 12.8067C18.6498 12.2925 18.8204 11.764 18.9498 11.2261C19.1556 10.3703 19.257 9.49065 19.25 8.60639L19.25 8.60052V8.07053C19.25 7.88867 19.3161 7.71301 19.4359 7.57624C19.5052 7.4972 19.6264 7.31464 19.7954 7.01674C19.956 6.73362 20.1338 6.39371 20.3187 6.03453C20.3299 6.0128 20.3411 5.99097 20.3524 5.96903C19.8728 6.07318 19.3293 6.12777 18.7594 6.06618C18.579 6.04668 18.4117 5.96239 18.2887 5.82895C17.7858 5.28362 17.1161 4.92061 16.3847 4.79687C16.0602 4.74196 15.6678 4.75453 15.2747 4.82187C14.8476 4.89503 14.4759 5.02304 14.2472 5.14522C13.593 5.49479 13.0732 6.05163 12.7695 6.72842C12.4658 7.4052 12.3953 8.16365 12.5691 8.88481C12.6245 9.11472 12.5683 9.3573 12.4173 9.53933C12.2663 9.72136 12.0383 9.82151 11.8021 9.80957C10.9587 9.76691 10.1242 9.63826 9.31135 9.42699C8.45146 9.2035 7.61572 8.88755 6.81915 8.48314C5.64637 7.88773 4.57832 7.11063 3.65348 6.18294C3.61129 6.39855 3.58987 6.61858 3.59001 6.84003L3.59001 6.84195C3.58897 7.39267 3.72412 7.9351 3.98343 8.42095C4.24274 8.9068 4.61816 9.32099 5.07627 9.62664C5.35429 9.81214 5.47602 10.1592 5.37477 10.4777C5.27351 10.7963 4.97372 11.0093 4.63962 11.0002C4.33702 10.992 4.03696 10.9552 3.74329 10.8909Z\" fill=\"black\"></path></svg></div></div>", 2);
 
 var _hoisted_10 = [_hoisted_8];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" meet the team "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(3, function (i) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" meet the team "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(5, function (i) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-      "class": "border border-gray-500 p-1",
+      "class": "shadow p-4",
       key: i
     }, _hoisted_10);
   }), 64
@@ -19769,10 +19785,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "text-red-400"
+  "class": "px-12"
 };
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-2 py-36 place-items-center px-24 shadow-sm\"><div class=\"max-w-2xl\"><p class=\"text-7xl font-extrabold\">Let&#39;s create progress together</p></div><!-- form --><div class=\"\"><form class=\"w-full max-w-lg\"><div class=\"flex flex-wrap -mx-3 mb-6\"><!-- &lt;div class=&quot;w-full md:w-1/2 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-first-name&quot;&gt;\n\t\t\t\t        First Name\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-red-500 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white&quot; id=&quot;grid-first-name&quot; type=&quot;text&quot; placeholder=&quot;Paul&quot;&gt;\n\t\t\t\t      &lt;p class=&quot;text-red-500 text-xs italic&quot;&gt;Please fill out this field.&lt;/p&gt;\n\t\t\t\t    &lt;/div&gt; --><div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\"> First Name </label><input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Paul\"></div><div class=\"w-full md:w-1/2 px-3\"><label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\"> Last Name </label><input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"Tad\"></div></div><div class=\"flex flex-wrap -mx-3 mb-6\"><div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\"> Email </label><input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"email\" placeholder=\"naz@gmail.com\"></div><div class=\"w-full md:w-1/2 px-3\"><label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\"> Phone number </label><input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"+251-922744488\"></div></div><div class=\"flex flex-wrap -mx-3 mb-6\"><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-city\"> City </label><input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-city\" type=\"text\" placeholder=\"Addis Ababa\"></div><!-- &lt;div class=&quot;w-full md:w-1/3 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-state&quot;&gt;\n\t\t\t\t        State\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;div class=&quot;relative&quot;&gt;\n\t\t\t\t        &lt;select class=&quot;block appearance-none w-full border border-black text-gray-700 py-3 px-4 pr-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-state&quot;&gt;\n\t\t\t\t          &lt;option&gt;New Mexico&lt;/option&gt;\n\t\t\t\t          &lt;option&gt;Missouri&lt;/option&gt;\n\t\t\t\t          &lt;option&gt;Texas&lt;/option&gt;\n\t\t\t\t        &lt;/select&gt;\n\t\t\t\t        &lt;div class=&quot;pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700&quot;&gt;\n\t\t\t\t          &lt;svg class=&quot;fill-current h-4 w-4&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 20 20&quot;&gt;&lt;path d=&quot;M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z&quot;/&gt;&lt;/svg&gt;\n\t\t\t\t        &lt;/div&gt;\n\t\t\t\t      &lt;/div&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;div class=&quot;w-full md:w-1/3 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-zip&quot;&gt;\n\t\t\t\t        Zip\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-zip&quot; type=&quot;text&quot; placeholder=&quot;90210&quot;&gt;\n\t\t\t\t    &lt;/div&gt; --></div><div class=\"flex flex-wrap mb-2\"><button class=\"bg-black text-white px-5 py-2 tracking-wider uppercase text-sm hover:scale-105 transition ease-in delay-100\">subscribe</button></div></form></div></div>", 1);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "shadow-2xl p-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
+  "class": "w-full h-[450px] border p-4",
+  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.6738893671045!2d38.77751981535902!3d9.002124593539545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85936109263f%3A0x78fb74bc4687be4c!2sThe%20Place%20luxury%20apartment!5e0!3m2!1sen!2set!4v1659184918008!5m2!1sen!2set",
+  allowfullscreen: "",
+  loading: "lazy",
+  referrerpolicy: "no-referrer-when-downgrade"
+})], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h2", _hoisted_1, "Contact Page");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" map "), _hoisted_3]);
 }
 
 /***/ }),
@@ -19797,12 +19828,12 @@ var _hoisted_1 = {
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "h-screen flex justify-center items-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "relative z-10 text-7xl uppercase max-w-2xl text-center font-bold tracking-wide first-letter:text-9xl hover:scale-105 transition ease-in delay-100"
+  "class": "relative -mt-36 z-10 text-7xl uppercase max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100"
 }, "we design with the future in mind.")], -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-2xl\"><p class=\"first-letter:text-3xl\">We design and develop digital products and online experiences that help our clients grow, innovate, and transform. We listen, learn and understand before we build. We identify your goals together, then use our expertise to find that sweet spot of realistic and impactful.</p></div></div></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-2xl\"><p class=\"tracking-wider\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div></div></div>", 1);
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 py-16 flex justify-center\"><div class=\"pt-7 px-36\"><div class=\"grid grid-cols-7 justify-items-center items-center\"><div><img class=\"h-[39px]\" src=\"https://laravel.com/images/companies/disney.png\"></div><div><img class=\"h-[24px]\" src=\"https://laravel.com/images/companies/bankrate.png\"></div><div><img class=\"h-[37px]\" src=\"https://laravel.com/images/companies/warner-bros.png\"></div><div><img class=\"h-[31px]\" src=\"https://laravel.com/images/companies/the-new-york-times.png\"></div><div><img class=\"h-[42px]\" src=\"https://laravel.com/images/companies/wwe.png\"></div><div><img class=\"h-[32px]\" src=\"https://laravel.com/images/companies/twitch.png\"></div><div><img class=\"h-[28px]\" src=\"https://laravel.com/images/companies/about-you.png\"></div></div></div></div>", 1);
 
@@ -19856,17 +19887,18 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": "flex justify-between items-center px-12 py-6"
 };
-var _hoisted_3 = {
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "tracking-wider text-sm font-bold text-gray-400"
+}, "A DESIGN THINKING AGENCY", -1
+/* HOISTED */
+);
+
+var _hoisted_4 = {
   "class": "border border-4 border-black px-4"
 };
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Stratix ");
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "w-1/2"
-}, null, -1
-/* HOISTED */
-);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Stratix ");
 
 var _hoisted_6 = {
   "class": "py-6"
@@ -19881,17 +19913,17 @@ var _hoisted_9 = {
   "class": "text-sm"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
     href: "/",
     "class": "uppercase text-3xl font-semibold tracking-wider"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_4];
+      return [_hoisted_5];
     }),
     _: 1
     /* STABLE */
 
-  })]), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Nav"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, "© " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.year) + " Stratix All rights reserved | Privacy Policy | Cookie Policy | Terms & Conditions", 1
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <hr class=\"w-1/2\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Nav"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, "© " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.year) + " Stratix All rights reserved", 1
   /* TEXT */
   )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> ")], 64
   /* STABLE_FRAGMENT */
@@ -19917,17 +19949,15 @@ var _hoisted_1 = {
   "class": "list-none space-x-12 uppercase tracking-wider"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Works");
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("About");
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("About");
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
-    href: "/achivments",
-    active: _ctx.$page.component === 'Achivments',
-    "class": "hover:font-bold"
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <NavLink href=\"/achivments\" :active=\"$page.component === 'Achivments'\" class=\"hover:font-bold\" >Works</NavLink> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+    href: "/about",
+    active: _ctx.$page.component === 'About',
+    "class": "hover:text-black font-bold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_2];
@@ -19938,9 +19968,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, 8
   /* PROPS */
   , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
-    href: "/about",
-    active: _ctx.$page.component === 'About',
-    "class": "hover:font-bold"
+    href: "/contact",
+    active: _ctx.$page.component === 'Contact',
+    "class": "hover:text-black font-bold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_3];
@@ -19950,17 +19980,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
-    href: "/contact",
-    "class": "hover:font-bold"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_4];
-    }),
-    _: 1
-    /* STABLE */
-
-  })])]);
+  , ["active"])])]);
 }
 
 /***/ }),
@@ -19981,7 +20001,7 @@ __webpack_require__.r(__webpack_exports__);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Link"], {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["", {
-      'font-bold border-b p-1': $setup.active
+      'font-bold border-b p-1 text-black': $setup.active
     }])
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -20008,6 +20028,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
 /* harmony import */ var vue_particles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-particles */ "./node_modules/vue-particles/src/vue-particles/index.js");
+/* harmony import */ var _inertiajs_progress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @inertiajs/progress */ "./node_modules/@inertiajs/progress/dist/index.js");
+
 
 
 
@@ -20026,6 +20048,9 @@ __webpack_require__.r(__webpack_exports__);
       }
     }).use(plugin).use(vue_particles__WEBPACK_IMPORTED_MODULE_2__["default"]).mount(el);
   }
+});
+_inertiajs_progress__WEBPACK_IMPORTED_MODULE_3__.InertiaProgress.init({
+  color: "black"
 });
 
 /***/ }),
@@ -24502,6 +24527,492 @@ module.exports = isEqual;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./node_modules/nprogress/nprogress.js":
+/*!*********************************************!*\
+  !*** ./node_modules/nprogress/nprogress.js ***!
+  \*********************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/* NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
+ * @license MIT */
+
+;(function(root, factory) {
+
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+		(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+		__WEBPACK_AMD_DEFINE_FACTORY__),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+
+})(this, function() {
+  var NProgress = {};
+
+  NProgress.version = '0.2.0';
+
+  var Settings = NProgress.settings = {
+    minimum: 0.08,
+    easing: 'ease',
+    positionUsing: '',
+    speed: 200,
+    trickle: true,
+    trickleRate: 0.02,
+    trickleSpeed: 800,
+    showSpinner: true,
+    barSelector: '[role="bar"]',
+    spinnerSelector: '[role="spinner"]',
+    parent: 'body',
+    template: '<div class="bar" role="bar"><div class="peg"></div></div><div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
+  };
+
+  /**
+   * Updates configuration.
+   *
+   *     NProgress.configure({
+   *       minimum: 0.1
+   *     });
+   */
+  NProgress.configure = function(options) {
+    var key, value;
+    for (key in options) {
+      value = options[key];
+      if (value !== undefined && options.hasOwnProperty(key)) Settings[key] = value;
+    }
+
+    return this;
+  };
+
+  /**
+   * Last number.
+   */
+
+  NProgress.status = null;
+
+  /**
+   * Sets the progress bar status, where `n` is a number from `0.0` to `1.0`.
+   *
+   *     NProgress.set(0.4);
+   *     NProgress.set(1.0);
+   */
+
+  NProgress.set = function(n) {
+    var started = NProgress.isStarted();
+
+    n = clamp(n, Settings.minimum, 1);
+    NProgress.status = (n === 1 ? null : n);
+
+    var progress = NProgress.render(!started),
+        bar      = progress.querySelector(Settings.barSelector),
+        speed    = Settings.speed,
+        ease     = Settings.easing;
+
+    progress.offsetWidth; /* Repaint */
+
+    queue(function(next) {
+      // Set positionUsing if it hasn't already been set
+      if (Settings.positionUsing === '') Settings.positionUsing = NProgress.getPositioningCSS();
+
+      // Add transition
+      css(bar, barPositionCSS(n, speed, ease));
+
+      if (n === 1) {
+        // Fade out
+        css(progress, { 
+          transition: 'none', 
+          opacity: 1 
+        });
+        progress.offsetWidth; /* Repaint */
+
+        setTimeout(function() {
+          css(progress, { 
+            transition: 'all ' + speed + 'ms linear', 
+            opacity: 0 
+          });
+          setTimeout(function() {
+            NProgress.remove();
+            next();
+          }, speed);
+        }, speed);
+      } else {
+        setTimeout(next, speed);
+      }
+    });
+
+    return this;
+  };
+
+  NProgress.isStarted = function() {
+    return typeof NProgress.status === 'number';
+  };
+
+  /**
+   * Shows the progress bar.
+   * This is the same as setting the status to 0%, except that it doesn't go backwards.
+   *
+   *     NProgress.start();
+   *
+   */
+  NProgress.start = function() {
+    if (!NProgress.status) NProgress.set(0);
+
+    var work = function() {
+      setTimeout(function() {
+        if (!NProgress.status) return;
+        NProgress.trickle();
+        work();
+      }, Settings.trickleSpeed);
+    };
+
+    if (Settings.trickle) work();
+
+    return this;
+  };
+
+  /**
+   * Hides the progress bar.
+   * This is the *sort of* the same as setting the status to 100%, with the
+   * difference being `done()` makes some placebo effect of some realistic motion.
+   *
+   *     NProgress.done();
+   *
+   * If `true` is passed, it will show the progress bar even if its hidden.
+   *
+   *     NProgress.done(true);
+   */
+
+  NProgress.done = function(force) {
+    if (!force && !NProgress.status) return this;
+
+    return NProgress.inc(0.3 + 0.5 * Math.random()).set(1);
+  };
+
+  /**
+   * Increments by a random amount.
+   */
+
+  NProgress.inc = function(amount) {
+    var n = NProgress.status;
+
+    if (!n) {
+      return NProgress.start();
+    } else {
+      if (typeof amount !== 'number') {
+        amount = (1 - n) * clamp(Math.random() * n, 0.1, 0.95);
+      }
+
+      n = clamp(n + amount, 0, 0.994);
+      return NProgress.set(n);
+    }
+  };
+
+  NProgress.trickle = function() {
+    return NProgress.inc(Math.random() * Settings.trickleRate);
+  };
+
+  /**
+   * Waits for all supplied jQuery promises and
+   * increases the progress as the promises resolve.
+   *
+   * @param $promise jQUery Promise
+   */
+  (function() {
+    var initial = 0, current = 0;
+
+    NProgress.promise = function($promise) {
+      if (!$promise || $promise.state() === "resolved") {
+        return this;
+      }
+
+      if (current === 0) {
+        NProgress.start();
+      }
+
+      initial++;
+      current++;
+
+      $promise.always(function() {
+        current--;
+        if (current === 0) {
+            initial = 0;
+            NProgress.done();
+        } else {
+            NProgress.set((initial - current) / initial);
+        }
+      });
+
+      return this;
+    };
+
+  })();
+
+  /**
+   * (Internal) renders the progress bar markup based on the `template`
+   * setting.
+   */
+
+  NProgress.render = function(fromStart) {
+    if (NProgress.isRendered()) return document.getElementById('nprogress');
+
+    addClass(document.documentElement, 'nprogress-busy');
+    
+    var progress = document.createElement('div');
+    progress.id = 'nprogress';
+    progress.innerHTML = Settings.template;
+
+    var bar      = progress.querySelector(Settings.barSelector),
+        perc     = fromStart ? '-100' : toBarPerc(NProgress.status || 0),
+        parent   = document.querySelector(Settings.parent),
+        spinner;
+    
+    css(bar, {
+      transition: 'all 0 linear',
+      transform: 'translate3d(' + perc + '%,0,0)'
+    });
+
+    if (!Settings.showSpinner) {
+      spinner = progress.querySelector(Settings.spinnerSelector);
+      spinner && removeElement(spinner);
+    }
+
+    if (parent != document.body) {
+      addClass(parent, 'nprogress-custom-parent');
+    }
+
+    parent.appendChild(progress);
+    return progress;
+  };
+
+  /**
+   * Removes the element. Opposite of render().
+   */
+
+  NProgress.remove = function() {
+    removeClass(document.documentElement, 'nprogress-busy');
+    removeClass(document.querySelector(Settings.parent), 'nprogress-custom-parent');
+    var progress = document.getElementById('nprogress');
+    progress && removeElement(progress);
+  };
+
+  /**
+   * Checks if the progress bar is rendered.
+   */
+
+  NProgress.isRendered = function() {
+    return !!document.getElementById('nprogress');
+  };
+
+  /**
+   * Determine which positioning CSS rule to use.
+   */
+
+  NProgress.getPositioningCSS = function() {
+    // Sniff on document.body.style
+    var bodyStyle = document.body.style;
+
+    // Sniff prefixes
+    var vendorPrefix = ('WebkitTransform' in bodyStyle) ? 'Webkit' :
+                       ('MozTransform' in bodyStyle) ? 'Moz' :
+                       ('msTransform' in bodyStyle) ? 'ms' :
+                       ('OTransform' in bodyStyle) ? 'O' : '';
+
+    if (vendorPrefix + 'Perspective' in bodyStyle) {
+      // Modern browsers with 3D support, e.g. Webkit, IE10
+      return 'translate3d';
+    } else if (vendorPrefix + 'Transform' in bodyStyle) {
+      // Browsers without 3D support, e.g. IE9
+      return 'translate';
+    } else {
+      // Browsers without translate() support, e.g. IE7-8
+      return 'margin';
+    }
+  };
+
+  /**
+   * Helpers
+   */
+
+  function clamp(n, min, max) {
+    if (n < min) return min;
+    if (n > max) return max;
+    return n;
+  }
+
+  /**
+   * (Internal) converts a percentage (`0..1`) to a bar translateX
+   * percentage (`-100%..0%`).
+   */
+
+  function toBarPerc(n) {
+    return (-1 + n) * 100;
+  }
+
+
+  /**
+   * (Internal) returns the correct CSS for changing the bar's
+   * position given an n percentage, and speed and ease from Settings
+   */
+
+  function barPositionCSS(n, speed, ease) {
+    var barCSS;
+
+    if (Settings.positionUsing === 'translate3d') {
+      barCSS = { transform: 'translate3d('+toBarPerc(n)+'%,0,0)' };
+    } else if (Settings.positionUsing === 'translate') {
+      barCSS = { transform: 'translate('+toBarPerc(n)+'%,0)' };
+    } else {
+      barCSS = { 'margin-left': toBarPerc(n)+'%' };
+    }
+
+    barCSS.transition = 'all '+speed+'ms '+ease;
+
+    return barCSS;
+  }
+
+  /**
+   * (Internal) Queues a function to be executed.
+   */
+
+  var queue = (function() {
+    var pending = [];
+    
+    function next() {
+      var fn = pending.shift();
+      if (fn) {
+        fn(next);
+      }
+    }
+
+    return function(fn) {
+      pending.push(fn);
+      if (pending.length == 1) next();
+    };
+  })();
+
+  /**
+   * (Internal) Applies css properties to an element, similar to the jQuery 
+   * css method.
+   *
+   * While this helper does assist with vendor prefixed property names, it 
+   * does not perform any manipulation of values prior to setting styles.
+   */
+
+  var css = (function() {
+    var cssPrefixes = [ 'Webkit', 'O', 'Moz', 'ms' ],
+        cssProps    = {};
+
+    function camelCase(string) {
+      return string.replace(/^-ms-/, 'ms-').replace(/-([\da-z])/gi, function(match, letter) {
+        return letter.toUpperCase();
+      });
+    }
+
+    function getVendorProp(name) {
+      var style = document.body.style;
+      if (name in style) return name;
+
+      var i = cssPrefixes.length,
+          capName = name.charAt(0).toUpperCase() + name.slice(1),
+          vendorName;
+      while (i--) {
+        vendorName = cssPrefixes[i] + capName;
+        if (vendorName in style) return vendorName;
+      }
+
+      return name;
+    }
+
+    function getStyleProp(name) {
+      name = camelCase(name);
+      return cssProps[name] || (cssProps[name] = getVendorProp(name));
+    }
+
+    function applyCss(element, prop, value) {
+      prop = getStyleProp(prop);
+      element.style[prop] = value;
+    }
+
+    return function(element, properties) {
+      var args = arguments,
+          prop, 
+          value;
+
+      if (args.length == 2) {
+        for (prop in properties) {
+          value = properties[prop];
+          if (value !== undefined && properties.hasOwnProperty(prop)) applyCss(element, prop, value);
+        }
+      } else {
+        applyCss(element, args[1], args[2]);
+      }
+    }
+  })();
+
+  /**
+   * (Internal) Determines if an element or space separated list of class names contains a class name.
+   */
+
+  function hasClass(element, name) {
+    var list = typeof element == 'string' ? element : classList(element);
+    return list.indexOf(' ' + name + ' ') >= 0;
+  }
+
+  /**
+   * (Internal) Adds a class to an element.
+   */
+
+  function addClass(element, name) {
+    var oldList = classList(element),
+        newList = oldList + name;
+
+    if (hasClass(oldList, name)) return; 
+
+    // Trim the opening space.
+    element.className = newList.substring(1);
+  }
+
+  /**
+   * (Internal) Removes a class from an element.
+   */
+
+  function removeClass(element, name) {
+    var oldList = classList(element),
+        newList;
+
+    if (!hasClass(element, name)) return;
+
+    // Replace the class name.
+    newList = oldList.replace(' ' + name + ' ', ' ');
+
+    // Trim the opening and closing spaces.
+    element.className = newList.substring(1, newList.length - 1);
+  }
+
+  /**
+   * (Internal) Gets a space separated list of the class names on the element. 
+   * The list is wrapped with a single space on each end to facilitate finding 
+   * matches within the list.
+   */
+
+  function classList(element) {
+    return (' ' + (element.className || '') + ' ').replace(/\s+/gi, ' ');
+  }
+
+  /**
+   * (Internal) Removes an element from the DOM.
+   */
+
+  function removeElement(element) {
+    element && element.parentNode && element.parentNode.removeChild(element);
+  }
+
+  return NProgress;
+});
+
 
 
 /***/ }),
@@ -29281,7 +29792,7 @@ module.exports = JSON.parse('{"_from":"axios@^0.21.1","_id":"axios@0.21.4","_inB
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Flag the module as loaded
 /******/ 		module.loaded = true;

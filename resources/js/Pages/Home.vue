@@ -1,7 +1,7 @@
 <template>
 	<div class="relative">
 		<div class="h-screen flex justify-center items-center">
-			<h2 class="relative z-10 text-7xl uppercase max-w-2xl text-center font-bold tracking-wide first-letter:text-9xl hover:scale-105 transition ease-in delay-100">we design with the future in mind.</h2>
+			<h2 class="relative -mt-36 z-10 text-7xl uppercase max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100">we design with the future in mind.</h2>
 		</div>
 		<vue-particles class="absolute inset-0 -mt-10"
         color="#44403c"
@@ -33,7 +33,7 @@
 		</div>
 		<div class="flex justify-center py-7">
 			<div class="max-w-2xl">
-				<p class="first-letter:text-3xl">We design and develop digital products and online experiences that help our clients grow, innovate, and transform. We listen, learn and understand before we build. We identify your goals together, then use our expertise to find that sweet spot of realistic and impactful.</p>
+				<p class="tracking-wider">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable,  strategy. From complete brand launches to smaller new features with repositioning,  if you can imagine it, we can create it for you.</p>
 			</div>
 		</div>
 	</div>
