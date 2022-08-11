@@ -75,17 +75,17 @@
 			</div>
 				
 		</div>
-		<div class="grid grid-cols-2 shadow-xl border p-4 border-gray-100">
-			<div class="p-7">
-				<div class="p-4 space-y-4 shadow">
+		<div class="grid grid-cols-2 gap-8 shadow-xl p-8  bg-gray-50">
+			<div class="p-7 shadow bg-white">
+				<div class="p-4 space-y-4 hover:scale-105 transition ease-in delay-100">
 					<p class="uppercase tracking-wider font-bold">social media strategy</p>
 					<hr class="w-1/6 border-black">
 					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p>
 				</div>
 			</div>
 
-			<div class="p-7">
-				<div class="p-4 space-y-4 shadow">
+			<div class="p-7 shadow bg-white">
+				<div class="p-4 space-y-4 hover:scale-105 transition ease-in delay-100">
 					<p class="uppercase tracking-wider font-bold">brand identity</p>
 					<hr class="w-1/6 border-black">
 					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer.
@@ -93,16 +93,16 @@
 				</div>
 			</div>
 
-			<div class="p-7">
-				<div class="p-4 space-y-4 shadow">
+			<div class="p-7 shadow bg-white">
+				<div class="p-4 space-y-4 hover:scale-105 transition ease-in delay-100">
 					<p class="uppercase tracking-wider font-bold">research & insight</p>
 					<hr class="w-1/6 border-black">
 					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p>
 				</div>
 			</div>
 
-			<div class="p-7">
-				<div class="p-4 space-y-4 shadow">
+			<div class="p-7 shadow bg-white">
+				<div class="p-4 space-y-4 hover:scale-105 transition ease-in delay-100">
 					<p class="uppercase tracking-wider font-bold">marketing video production</p>
 					<hr class="w-1/6 border-black">
 					<p class="p-4 text-sm tracking-wide text-gray-500 leading-6">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p>
