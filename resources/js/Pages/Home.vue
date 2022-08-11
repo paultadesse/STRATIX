@@ -117,7 +117,7 @@
 	<div class="py-7 px-12">
 		<div class="space-y-4">
 			<div class="py-4">
-				<h2 class="text-center text-2xl font-bold uppercase">Testimonials</h2>
+				<h2 class="text-center text-2xl font-bold uppercase tracking-wider">Testimonials</h2>
 			</div>
 			<div class="flex space-x-2">
 				<div>
