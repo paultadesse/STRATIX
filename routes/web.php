@@ -25,3 +25,7 @@ Route::get('/achivments', function () {
 Route::get('/about', function () {
     return Inertia::render('About');
 });
+
+Route::get('/contact', function () {
+    return Inertia::render('Contact');
+});
