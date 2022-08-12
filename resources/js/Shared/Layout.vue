@@ -1,8 +1,8 @@
 <template>
 
 	<section class="bg-greesn-100">
-		<header class="flex justify-between items-center px-12">
-			
+		<header class="flex justify-between items-center px-6 xl:px-12">
+
 			<p class="hidden xl:block tracking-wider text-sm font-bold text-gray-400">A DESIGN THINKING AGENCY</p>
 
 			<div class="h-20 z-50">
@@ -13,7 +13,7 @@
 
 			<div>
 				<div class="relative z-50 xl:hidden">
-					<button v-if="toggleMenuActive" @click="toggleMenuActive = false" class="fixed top-0 right-0 bottom-0 left-0 bg-black opacity-50 cursor-default"></button>
+					<button v-if="toggleMenuActive" @click="toggleMenuActive = false" tabindex="-1" class="fixed top-0 right-0 bottom-0 left-0 bg-black opacity-50 cursor-default"></button>
 					<svg v-if="!toggleMenuActive" @click="toggleMenuActive = true" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 xl:hidden" fill="none" viewBox="0 0 24 24" 	stroke="currentColor" stroke-width="2">
   						<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
 					</svg>

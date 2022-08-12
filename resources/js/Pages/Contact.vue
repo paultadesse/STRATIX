@@ -1,11 +1,11 @@
 <template>
-	<div class="px-12">
-		<div class="grid grid-cols-2 py-36 place-items-center px-24 shadow-sm">
-			<div class="max-w-2xl">
-				<p class="text-7xl font-extrabold ">Let's create progress together</p>
+	<div class="px-6 xl:px-12">
+		<div class="grid xl:grid-cols-2 py-16 xl:py-36 place-items-center  xl:px-24 shadow-sm">
+			<div class="max-w-2xl py-7 xl:py-0">
+				<p class="text-5xl xl:text-7xl font-extrabold ">Let's create progress together.</p>
 			</div>
 			<!-- form -->
-			<div class="">
+			<div class="py-7 xl:py-0">
 				<form class="w-full max-w-lg">
 				  <div class="flex flex-wrap -mx-3 mb-6">
 				    <!-- <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -78,8 +78,8 @@
 			</div>
 		</div>
 		<!-- map -->
-		<div class="shadow-2xl p-4">
-			<iframe class="w-full h-[450px] border p-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.6738893671045!2d38.77751981535902!3d9.002124593539545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85936109263f%3A0x78fb74bc4687be4c!2sThe%20Place%20luxury%20apartment!5e0!3m2!1sen!2set!4v1659184918008!5m2!1sen!2set"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<div class="shadow-2xl xl:p-4">
+			<iframe class="w-full h-[450px] border xl:p-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.6738893671045!2d38.77751981535902!3d9.002124593539545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85936109263f%3A0x78fb74bc4687be4c!2sThe%20Place%20luxury%20apartment!5e0!3m2!1sen!2set!4v1659184918008!5m2!1sen!2set"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 	</div>
 </template>

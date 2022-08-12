@@ -1399,6 +1399,10 @@ video {
     padding: 2rem;
   }
 
+  .xl\:p-4 {
+    padding: 1rem;
+  }
+
   .xl\:px-36 {
     padding-left: 9rem;
     padding-right: 9rem;
@@ -1412,6 +1416,21 @@ video {
   .xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xl\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .xl\:text-3xl {
