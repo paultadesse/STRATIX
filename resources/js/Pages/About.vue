@@ -1,5 +1,5 @@
 <template>
-	<div class="space-y-20 px-12 py-36">
+	<div class="space-y-20 px-6 xl:px-12 py-36">
 		<div class="flex justify-center">
 			<h2 class="relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins">we design with the future in mind.</h2>
 		</div>
