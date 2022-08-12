@@ -123,29 +123,80 @@
 	<div class="py-7 px-12">
 		<div class="space-y-4">
 			<div class="py-4">
-				<h2 class="text-center text-2xl font-bold uppercase tracking-wider">Testimonials</h2>
+				<!-- <h2 class="text-center text-2xl font-bold uppercase tracking-wider">Our clients love what we do</h2> -->
 			</div>
 			
-			<div class="grid grid-cols-6 place-items-center content-center">
-				<div class="col-span-6  shadow-2xl flex items-center">
-					<div class="shrink-0">
-						<img src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
+			<div class="grid grid-cols-6 gap-4 place-items-center content-center">
+				<div class="xl:col-span-3 col-span-6 flex items-center">
+					<h2 class="max-w-3xl font-poppins text-center text-7xl font-bold tracking-wider">Our clients love what we do.</h2>
+				</div>
+				<div class="xl:col-span-3 col-span-6   shadow flex items-center bg-black text-white">
+					<div class="shrink-0 pl-2">
+						<img class="h-32 w-32 object-contain border rounded rounded-full w-auto" src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
 					</div>
 					<div class="p-4">
 						<svg class="h-12 mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" 	xmlns="http://www.w3.org/2000/svg">
 		              		<path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
 		          		</svg>
-		          		<h1 class="text-2xl font-bold">It was a greate experience !</h1>
+		          		<h1 class="text-2xl font-bold font-poppins">It was a greate experience !</h1>
 		          		<div class="p-4 ml-2">
-		          			<p class="border-l-[3px] p-4 max-w-3xl font-roboto text-gray-500">STRATIX is a design thinking agency with a 	multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p>
+		          			<p class="shadow border-l-[1px] p-4 max-xl font-roboto text-gray-300 tracking-wide">STRATIX is a design thinking agency with a 	multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy.</p>
 
-		          			<div class="flex justify-center space-x-2 font-bold font-roboto tracking-wide">
-		          				<p>Tim Cook</p>
-		          				<p>CEO at Apple</p>
+		          			<div class=" py-8 space-x-2 font-bold font-roboto tracking-wide">
+		          				<div class="flex justify-center items-center space-x-2">
+		          					<p>Tim Cook</p>
+		          					<hr class="w-[2px] h-6 border border-gray-400">
+		          					<p>CEO at Apple</p>
+		          				</div>
 		          			</div>
 		          		</div>
 					</div>
 				</div>
+				<div class="xl:col-span-3 col-span-6  shadow-2xl flex items-center bg-black text-white">
+					<div class="shrink-0">
+						<img class="h-40" src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
+					</div>
+					<div class="p-4">
+						<svg class="h-12 mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" 	xmlns="http://www.w3.org/2000/svg">
+		              		<path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+		          		</svg>
+		          		<h1 class="text-2xl font-bold font-poppins">It was a greate experience !</h1>
+		          		<div class="p-4 ml-2">
+		          			<p class="border-l-[1px] p-4 max-w-3xl font-roboto text-gray-300 tracking-wide">STRATIX is a design thinking agency with a 	multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p>
+
+		          			<div class=" py-8 space-x-2 font-bold font-roboto tracking-wide">
+		          				<div class="flex justify-center items-center space-x-2">
+		          					<p>Tim Cook</p>
+		          					<hr class="w-[2px] h-6 border border-gray-400">
+		          					<p>CEO at Apple</p>
+		          				</div>
+		          			</div>
+		          		</div>
+					</div>
+				</div>
+				<div class="xl:col-span-3 col-span-6 shadow flex items-center bg-gray-50 border">
+					<div class="shrink-0">
+						<img class="h-32 w-32 object-contain w-auto" src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
+					</div>
+					<div class="p-4">
+						<svg class="h-12 mb-3 text-gray-700 dark:text-gray-600" viewBox="0 0 24 27" fill="none" 	xmlns="http://www.w3.org/2000/svg">
+		              		<path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+		          		</svg>
+		          		<h1 class="text-2xl font-bold font-poppins">It was a greate experience !</h1>
+		          		<div class="p-4 ml-2">
+		          			<p class="shadow border-l-[1px] p-4 max-w-3xl font-roboto text-gray-700 tracking-wide">STRATIX is a design thinking agency with a 	multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p>
+
+		          			<div class="text-gray-900 py-8 space-x-2 font-bold font-roboto tracking-wide">
+		          				<div class="flex justify-center items-center space-x-2">
+		          					<p>Tim Cook</p>
+		          					<hr class="w-[2px] h-6 border border-gray-400">
+		          					<p>CEO at Apple</p>
+		          				</div>
+		          			</div>
+		          		</div>
+					</div>
+				</div>
+
 			</div>
 
 		</div>
