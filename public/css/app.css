@@ -1320,6 +1320,14 @@ video {
     height: 96px;
   }
 
+  .xl\:h-\[650px\] {
+    height: 650px;
+  }
+
+  .xl\:h-\[350px\] {
+    height: 350px;
+  }
+
   .xl\:max-w-3xl {
     max-width: 48rem;
   }
@@ -1330,6 +1338,10 @@ video {
 
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:gap-8 {

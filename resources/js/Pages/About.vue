@@ -7,11 +7,11 @@
 			<p class=" max-w-2xl text-center font-light text-sm tracking-wider font-roboto">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p>
 		</div>
 		<div>
-			<div class="flex">
+			<div class="xl:flex">
 				<div class="shrink-0">
-					<img class="h-[650px] hover:scale-95 transition ease-in delay-100" src="https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&resize=1024x768">
+					<img class="xl:h-[650px] hover:scale-95 transition ease-in delay-100" src="https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&resize=1024x768">
 				</div>
-				<div class="flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200">
+				<div class="flex xl:p-8 shadow-xl hover:scale-95 transition ease-in delay-200">
 					<div class="border p-8 space-y-10">	
 						<div class="space-y-2">
 							<p class="text-2xl font-bold uppercase tracking-wider font-poppins">help big brands stay mighty</p>
@@ -37,11 +37,11 @@
 				</div>
 			</div>
 
-			<div class="flex flex-row-reverse">
+			<div class="xl:flex flex-row-reverse">
 				<div class="shrink-0">
-					<img class="h-[650px] hover:scale-95 transition ease-in delay-200" src="https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&resize=1024x768">
+					<img class="xl:h-[650px] hover:scale-95 transition ease-in delay-200" src="https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&resize=1024x768">
 				</div>
-				<div class="flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200">
+				<div class="flex xl:p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200">
 					<div class="border p-8 space-y-10">
 						<div class="space-y-2">
 							<p class="text-2xl font-bold uppercase tracking-wider font-poppins">We help grow your business</p>
@@ -76,9 +76,9 @@
 			</div>
 		</div>
 		<div class="flex justify-center">
-			<div class="grid grid-cols-3 gap-2">
+			<div class="grid xl:grid-cols-3 gap-2">
 				<div class="shadow p-4" v-for="i in 3" :key="i">
-					<img class="h-[350px] w-auto hover:scale-105 transition ease-in delay-100 hover:shadow-2xl shadow-xl" src="https://media.istockphoto.com/photos/black-and-white-portrait-of-fashion-blond-woman-with-short-hair-picture-id960471134?k=20&m=960471134&s=612x612&w=0&h=hmf2Ywv_ALLRxur6AEvaZE5Bw-5hj7pdtk5u7hv_gWc=">
+					<img class="xl:h-[350px] w-auto hover:scale-105 transition ease-in delay-100 hover:shadow-2xl shadow-xl" src="https://media.istockphoto.com/photos/black-and-white-portrait-of-fashion-blond-woman-with-short-hair-picture-id960471134?k=20&m=960471134&s=612x612&w=0&h=hmf2Ywv_ALLRxur6AEvaZE5Bw-5hj7pdtk5u7hv_gWc=">
 					<div class="max-w-md space-y-2 mt-4">
 						<p class="text-lg font-bold">Naz</p>
 						<p>Addis Ababa</p>
