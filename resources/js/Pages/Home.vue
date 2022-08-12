@@ -1,7 +1,7 @@
 <template>
 	<div class="relative">
 		<div class="h-screen flex justify-center items-center">
-			<h2 class="relative -mt-36 z-10 text-7xl uppercase max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">we design with the future in mind.</h2>
+			<h2 class="relative -mt-36 z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">we design with the future in mind.</h2>
 		</div>
 		<vue-particles class="absolute inset-0 -mt-10"
         color="#44403c"
@@ -32,7 +32,7 @@
 			</div>
 		</div>
 		<div class="flex justify-center py-7">
-			<div class="max-w-2xl z-10">
+			<div class="max-w-sm xl:max-w-2xl z-10">
 				<p class="tracking-wider text-center font-roboto">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable,  strategy. From complete brand launches to smaller new features with repositioning,  if you can imagine it, we can create it for you.</p>
 			</div>
 			<div class="absolute xl:top-0 bottom-0 right-0 -z">
@@ -41,8 +41,8 @@
 		</div>
 	</div>
 	<!-- partners -->
-	<div class="bg-gray-50 py-16 flex justify-center">
-		<div class="pt-7 px-36">
+	<div class="bg-gray-50 xl:py-16 flex justify-center">
+		<div class="pt-7 xl:px-36">
 			<div class=" grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center">
 				<div>
 					<img class="h-[96px]" src="@/../assets/images/stratix_clients/COKA_COLA.svg">
@@ -77,11 +77,11 @@
 	<div class="px-12 py-12">
 		<div class="py-12 flex justify-center">
 			<div class="max-w-3xl">
-				<h2 class="text-center text-gray-700 text-2xl font-semibold uppercase tracking-wider font-poppins">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2>
+				<h2 class="text-center text-gray-700 xl:text-2xl font-semibold uppercase tracking-wider font-poppins">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2>
 			</div>
 				
 		</div>
-		<div class="grid grid-cols-2 gap-8 shadow-xl p-8  bg-gray-50">
+		<div class="grid xl:grid-cols-2 gap-2 xl:gap-8 shadow-xl xl:p-8  bg-gray-50">
 			<div class="p-7 shadow bg-white">
 				<div class="p-4 space-y-4 hover:scale-105 transition ease-in delay-100">
 					<p class="uppercase tracking-wider font-bold font-poppins">social media strategy</p>
@@ -122,16 +122,13 @@
 
 	<div class="py-7 px-12">
 		<div class="space-y-4">
-			<div class="py-4">
-				<!-- <h2 class="text-center text-2xl font-bold uppercase tracking-wider">Our clients love what we do</h2> -->
-			</div>
 			
 			<div class="grid grid-cols-6 gap-4 place-items-center content-center">
 				<div class="xl:col-span-3 col-span-6 flex items-center">
-					<h2 class="max-w-3xl font-poppins text-center text-7xl font-bold tracking-wider">Our clients love what we do.</h2>
+					<h2 class="xl:max-w-3xl font-poppins text-center xl:text-7xl font-bold tracking-wider">Our clients love what we do.</h2>
 				</div>
-				<div class="xl:col-span-3 col-span-6   shadow flex items-center bg-black text-white">
-					<div class="shrink-0 pl-2">
+				<div class="xl:col-span-3 col-span-6 shadow xl:flex items-center bg-black text-white">
+					<div class="shrink-0 pl-2 flex justify-center">
 						<img class="h-32 w-32 object-contain border rounded rounded-full w-auto" src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
 					</div>
 					<div class="p-4">
@@ -152,8 +149,8 @@
 		          		</div>
 					</div>
 				</div>
-				<div class="xl:col-span-3 col-span-6  shadow-2xl flex items-center bg-black text-white">
-					<div class="shrink-0">
+				<div class="xl:col-span-3 col-span-6 shadow-2xl xl:flex items-center bg-black text-white">
+					<div class="shrink-0 flex justify-center">
 						<img class="h-40" src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
 					</div>
 					<div class="p-4">
@@ -174,8 +171,8 @@
 		          		</div>
 					</div>
 				</div>
-				<div class="xl:col-span-3 col-span-6 shadow flex items-center bg-gray-50 border">
-					<div class="shrink-0">
+				<div class="xl:col-span-3 col-span-6 shadow xl:flex items-center bg-gray-50 border">
+					<div class="shrink-0 flex justify-center">
 						<img class="h-32 w-32 object-contain w-auto" src="https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png">
 					</div>
 					<div class="p-4">
