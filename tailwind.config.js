@@ -6,7 +6,12 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto'],
+        poppins: ['Poppins'],
+      }
+    },
   },
   plugins: [],
 }

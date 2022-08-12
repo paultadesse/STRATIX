@@ -19709,17 +19709,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "space-y-20 px-12"
+  "class": "space-y-20 px-12 py-36"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center\"><h2 class=\"relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100\">we design with the future in mind.</h2></div><div class=\"flex justify-center\"><p class=\"max-w-2xl text-center font-light tracking-wide\">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p></div><div><div class=\"flex\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-100\" src=\"https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider\">help big brands stay mighty</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-200\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div><div class=\"flex flex-row-reverse\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-200\" src=\"https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider\">We help grow your business</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-100\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center\"><h2 class=\"relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins\">we design with the future in mind.</h2></div><div class=\"flex justify-center\"><p class=\"max-w-2xl text-center font-light text-sm tracking-wider font-roboto\">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p></div><div><div class=\"flex\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-100\" src=\"https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider font-poppins\">help big brands stay mighty</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-200\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div><div class=\"flex flex-row-reverse\"><div class=\"shrink-0\"><img class=\"h-[650px] hover:scale-95 transition ease-in delay-200\" src=\"https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&amp;resize=1024x768\"></div><div class=\"flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider font-poppins\">We help grow your business</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-100\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div></div>", 3);
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "space-y-2"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-4xl font-semibold tracking-wider uppercase"
+  "class": "text-4xl font-semibold tracking-wider uppercase font-poppins"
 }, "Meet The Team"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
   "class": "w-1/3 border-2 border-black mx-auto"
 })])], -1
@@ -19820,6 +19820,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg */ "./resources/assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg");
+/* harmony import */ var _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/../assets/images/stratix_clients/COKA_COLA.svg */ "./resources/assets/images/stratix_clients/COKA_COLA.svg");
+/* harmony import */ var _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/../assets/images/stratix_clients/DIAGEO.svg */ "./resources/assets/images/stratix_clients/DIAGEO.svg");
+/* harmony import */ var _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/../assets/images/stratix_clients/SMIRNOFF.svg */ "./resources/assets/images/stratix_clients/SMIRNOFF.svg");
+/* harmony import */ var _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/../assets/images/stratix_clients/ALX.svg */ "./resources/assets/images/stratix_clients/ALX.svg");
+/* harmony import */ var _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/../assets/images/stratix_clients/TEDx.svg */ "./resources/assets/images/stratix_clients/TEDx.svg");
+/* harmony import */ var _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg */ "./resources/assets/images/stratix_clients/TOURISM_ETHIOPIA.svg");
+/* harmony import */ var _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/../assets/images/stratix_clients/ALG.svg */ "./resources/assets/images/stratix_clients/ALG.svg");
+/* harmony import */ var _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/../assets/images/stratix_clients/KANA_TV.svg */ "./resources/assets/images/stratix_clients/KANA_TV.svg");
+
+
+
+
+
+
+
+
+
 
 var _hoisted_1 = {
   "class": "relative"
@@ -19828,18 +19846,18 @@ var _hoisted_1 = {
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "h-screen flex justify-center items-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "relative -mt-36 z-10 text-7xl uppercase max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100"
+  "class": "relative -mt-36 z-10 text-7xl uppercase max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins"
 }, "we design with the future in mind.")], -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-2xl\"><p class=\"tracking-wider\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div></div></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase font-poppins\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-2xl z-10\"><p class=\"tracking-wider text-center font-roboto\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div><div class=\"absolute xl:top-0 bottom-0 right-0 -z\"><img class=\"h-32 hover:scale-95 transition ease-in delay-100\" src=\"" + _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"></div></div></div>", 1);
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 py-16 flex justify-center\"><div class=\"pt-7 px-36\"><div class=\"grid grid-cols-7 justify-items-center items-center\"><div><img class=\"h-[39px]\" src=\"https://laravel.com/images/companies/disney.png\"></div><div><img class=\"h-[24px]\" src=\"https://laravel.com/images/companies/bankrate.png\"></div><div><img class=\"h-[37px]\" src=\"https://laravel.com/images/companies/warner-bros.png\"></div><div><img class=\"h-[31px]\" src=\"https://laravel.com/images/companies/the-new-york-times.png\"></div><div><img class=\"h-[42px]\" src=\"https://laravel.com/images/companies/wwe.png\"></div><div><img class=\"h-[32px]\" src=\"https://laravel.com/images/companies/twitch.png\"></div><div><img class=\"h-[28px]\" src=\"https://laravel.com/images/companies/about-you.png\"></div></div></div></div>", 1);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-50 py-16 flex justify-center\"><div class=\"pt-7 px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div></div></div></div>", 1);
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-12 py-12\"><div class=\"py-12 flex justify-center\"><div class=\"max-w-3xl\"><h2 class=\"text-center text-2xl font-bold uppercase tracking-wider\">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2></div></div><div class=\"grid grid-cols-2 gap-8 shadow-xl p-8 bg-gray-50\"><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold\">social media strategy</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold\">brand identity</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer. <br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold\">research &amp; insight</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold\">marketing video production</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div></div></div></div>", 1);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-12 py-12\"><div class=\"py-12 flex justify-center\"><div class=\"max-w-3xl\"><h2 class=\"text-center text-gray-700 text-2xl font-semibold uppercase tracking-wider font-poppins\">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2></div></div><div class=\"grid grid-cols-2 gap-8 shadow-xl p-8 bg-gray-50\"><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">social media strategy</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">brand identity</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer. <br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">research &amp; insight</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">marketing video production</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div></div></div></div>", 1);
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"py-7 px-12\"><div class=\"space-y-4\"><div class=\"py-4\"><h2 class=\"text-center text-2xl font-bold uppercase tracking-wider\">Testimonials</h2></div><div class=\"flex space-x-2\"><div><img class=\"hover:scale-105 transition ease-in delay-100\" src=\"https://media.istockphoto.com/photos/side-portrait-of-african-american-man-staring-picture-id935110490?k=20&amp;m=935110490&amp;s=612x612&amp;w=0&amp;h=mB-pKUFbT3Vl4ArAi0LDr-W8y647-nxMVeHyPadYb60=\"></div><div class=\"bg-gray-50 flex items-center max-w-sm hover:scale-105 transition ease-in delay-100 shadow-lg\"><div class=\"p-4 space-y-4\"><p class=\"font-bold text-gray-400 uppercase\">the modern monolith</p><p class=\"font-bold text-2xl\">Powerd By InertiaJS</p><hr class=\"w-1/2\"><p class=\"text-gray-400 text-sm tracking-wide\">Inertia allows you to create fully client-side rendered, single-page apps, without much of the complexity that comes with modern SPAs. It does this by leveraging existing server-side frameworks.</p></div></div><div class=\"flex items-center justify-center flex-1 uppercase tracking-wider\"><button class=\"flex space-x-4 border border-2 border-black p-4 hover:scale-105 transition ease-in delay-100\"><p class=\"text-sm tracking-wider\">See Details</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div><div class=\"flex flex-row-reverse space-x-2\"><div><img class=\"hover:scale-105 transition ease-in delay-100\" src=\"https://media.istockphoto.com/photos/beautiful-girl-with-curly-hairstyle-picture-id1292414100?k=20&amp;m=1292414100&amp;s=612x612&amp;w=0&amp;h=LXZWODEJuL9K19hG2RPUZZnXFJTG3CBj-RT0HV9lZiw=\"></div><div class=\"bg-gray-50 flex items-center max-w-sm hover:scale-105 transition ease-in delay-100 shadow-lg\"><div class=\"p-4 space-y-4\"><p class=\"font-bold text-2xl\">Powerd By VueJS</p><hr class=\"w-1/2\"><p class=\"text-gray-400 text-sm tracking-wide\">Inertia allows you to create fully client-side rendered, single-page apps, without much of the complexity that comes with modern SPAs. It does this by leveraging existing server-side frameworks.</p></div></div><div class=\"flex items-center justify-center flex-1 uppercase tracking-wider\"><button class=\"flex space-x-4 border border-2 border-black p-4 hover:scale-105 transition ease-in delay-100\"><p class=\"text-sm tracking-wider\">See Details</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div><div class=\"flex space-x-2\"><div><img class=\"hover:scale-105 transition ease-in delay-100\" src=\"https://media.istockphoto.com/photos/white-desktop-mockup-workplace-conceptual-image-picture-id1271672909?k=20&amp;m=1271672909&amp;s=612x612&amp;w=0&amp;h=jzzw78bZahpkfqObnGtfhQhpi6RCNQP2EvowI6tndrE=\"></div><div class=\"bg-gray-50 flex items-center max-w-sm hover:scale-105 transition ease-in delay-100 shadow-lg\"><div class=\"p-4 space-y-4\"><div><p class=\"text-sm\">The PHP Framework</p><p class=\"font-bold text-gray-400\">For Web Artisans</p></div><p class=\"font-bold text-2xl\">Laravel is an awesome framework</p><hr class=\"w-1/2\"><p class=\"text-gray-400 text-sm tracking-wide\">Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.</p></div></div><div class=\"flex items-center justify-center flex-1 uppercase tracking-wider\"><button class=\"flex space-x-4 border border-2 border-black p-4 hover:scale-105 transition ease-in delay-100\"><p class=\"text-sm tracking-wider\">See Details</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div></div></div>", 1);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"py-7 px-12\"><div class=\"space-y-4\"><div class=\"py-4\"><h2 class=\"text-center text-2xl font-bold uppercase tracking-wider\">Testimonials</h2></div><div class=\"grid grid-cols-6 place-items-center content-center\"><div class=\"col-span-6 shadow-2xl flex items-center\"><div class=\"shrink-0\"><img src=\"https://www.apple.com/leadership/images/bio/tim-cook_image.png.large.png\"></div><div class=\"p-4\"><svg class=\"h-12 mb-3 text-gray-400 dark:text-gray-600\" viewBox=\"0 0 24 27\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z\" fill=\"currentColor\"></path></svg><h1 class=\"text-2xl font-bold\">It was a greate experience !</h1><div class=\"p-4 ml-2\"><p class=\"border-l-[3px] p-4 max-w-3xl font-roboto text-gray-500\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p><div class=\"flex justify-center space-x-2 font-bold font-roboto tracking-wide\"><p>Tim Cook</p><p>CEO at Apple</p></div></div></div></div></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_vue_particles = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vue-particles");
@@ -19882,12 +19900,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg */ "./resources/assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg");
+
 
 var _hoisted_1 = {
-  "class": ""
+  "class": "bg-greesn-100"
 };
 var _hoisted_2 = {
-  "class": "flex justify-between items-center px-12 py-6"
+  "class": "flex justify-between items-center px-12"
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -19897,10 +19917,15 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_4 = {
-  "class": "border border-4 border-black px-4"
+  "class": "h-20 z-50"
 };
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Stratix ");
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "-mt-5 h-56 hover:scale-125 transition ease-in delay-100",
+  src: _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__["default"]
+}, null, -1
+/* HOISTED */
+);
 
 var _hoisted_6 = {
   "class": "py-6"
@@ -19915,7 +19940,7 @@ var _hoisted_9 = {
   "class": "text-sm"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
     href: "/",
     "class": "uppercase text-3xl font-semibold tracking-wider"
   }, {
@@ -19927,7 +19952,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <hr class=\"w-1/2\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Nav"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, "© " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.year) + " Stratix All rights reserved", 1
   /* TEXT */
-  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> ")], 64
+  )])])])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -19948,7 +19973,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "list-none space-x-12 uppercase tracking-wider"
+  "class": "list-none space-x-12 uppercase tracking-wider font-poppins"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("About");
@@ -19956,10 +19981,10 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNod
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <NavLink href=\"/achivments\" :active=\"$page.component === 'Achivments'\" class=\"hover:font-bold\" >Works</NavLink> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
     href: "/about",
     active: _ctx.$page.component === 'About',
-    "class": "hover:text-black font-bold text-gray-500"
+    "class": "hover:text-black font-semibold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_2];
@@ -19972,7 +19997,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
     href: "/contact",
     active: _ctx.$page.component === 'Contact',
-    "class": "hover:text-black font-bold text-gray-500"
+    "class": "hover:text-black font-semibold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_3];
@@ -20382,6 +20407,156 @@ var deepmerge_1 = deepmerge;
 
 module.exports = deepmerge_1;
 
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/ALG.svg":
+/*!*********************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/ALG.svg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ALG.svg?60063d8f9f9ae16d946bad6fc2f2a945");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/ALX.svg":
+/*!*********************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/ALX.svg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ALX.svg?e22347320911477c3dc8a6d463b92dba");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/COKA_COLA.svg":
+/*!***************************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/COKA_COLA.svg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/COKA_COLA.svg?835b91869b1804cbfd74c80008ec2c50");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/DIAGEO.svg":
+/*!************************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/DIAGEO.svg ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/DIAGEO.svg?83a108ae29830a2827c03dfe3b27e21f");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/KANA_TV.svg":
+/*!*************************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/KANA_TV.svg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/KANA_TV.svg?cadf6ff29d521e94d9eb2bbefdb2b06b");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/SMIRNOFF.svg":
+/*!**************************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/SMIRNOFF.svg ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/SMIRNOFF.svg?bd4fe005b6601a2f3b8d6be5f218f3ea");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/TEDx.svg":
+/*!**********************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/TEDx.svg ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/TEDx.svg?d7df718c4571ffd052fc6231d4c336c3");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_clients/TOURISM_ETHIOPIA.svg":
+/*!**********************************************************************!*\
+  !*** ./resources/assets/images/stratix_clients/TOURISM_ETHIOPIA.svg ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/TOURISM_ETHIOPIA.svg?a5fc2aa62330a0a19671461c0a9cccb9");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg":
+/*!******************************************************************************!*\
+  !*** ./resources/assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/STRATIX_LOGO_BLACK_ON_WHITE.svg?f25ecc63f78e77b982b7f1de98b70794");
+
+/***/ }),
+
+/***/ "./resources/assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg":
+/*!******************************************************************************!*\
+  !*** ./resources/assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/STRATIX_LOGO_WHITE_ON_BLACK.svg?1c9c72ac88d74cd70392c5219c824c72");
 
 /***/ }),
 

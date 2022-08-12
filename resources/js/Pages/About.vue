@@ -1,10 +1,10 @@
 <template>
-	<div class="space-y-20 px-12">
+	<div class="space-y-20 px-12 py-36">
 		<div class="flex justify-center">
-			<h2 class="relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100">we design with the future in mind.</h2>
+			<h2 class="relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins">we design with the future in mind.</h2>
 		</div>
 		<div class="flex justify-center">
-			<p class=" max-w-2xl text-center font-light tracking-wide">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p>
+			<p class=" max-w-2xl text-center font-light text-sm tracking-wider font-roboto">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p>
 		</div>
 		<div>
 			<div class="flex">
@@ -14,16 +14,16 @@
 				<div class="flex p-8 shadow-xl hover:scale-95 transition ease-in delay-200">
 					<div class="border p-8 space-y-10">	
 						<div class="space-y-2">
-							<p class="text-2xl font-bold uppercase tracking-wider">help big brands stay mighty</p>
+							<p class="text-2xl font-bold uppercase tracking-wider font-poppins">help big brands stay mighty</p>
 							<hr class="w-1/6 border-2 border-black">
 						</div>
-						<p class="text-gray-500 first-letter:text-2xl tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-gray-500 first-letter:text-2xl tracking-wider font-roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<p class="text-sm tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-sm tracking-wider font-roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -44,16 +44,16 @@
 				<div class="flex p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200">
 					<div class="border p-8 space-y-10">
 						<div class="space-y-2">
-							<p class="text-2xl font-bold uppercase tracking-wider">We help grow your business</p>
+							<p class="text-2xl font-bold uppercase tracking-wider font-poppins">We help grow your business</p>
 							<hr class="w-1/6 border-2 border-black">
 						</div>	
-						<p class="text-gray-500 first-letter:text-2xl tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-gray-500 first-letter:text-2xl tracking-wider font-roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<p class="text-sm tracking-wider">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-sm tracking-wider font-roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -71,7 +71,7 @@
 		<!-- meet the team -->
 		<div class="flex justify-center">
 			<div class="space-y-2">	
-				<p class="text-4xl font-semibold tracking-wider uppercase">Meet The Team</p>
+				<p class="text-4xl font-semibold tracking-wider uppercase font-poppins">Meet The Team</p>
 				<hr class="w-1/3 border-2 border-black mx-auto">
 			</div>
 		</div>

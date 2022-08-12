@@ -1,11 +1,11 @@
 <template>
-	<!-- <div class="relative"> -->
-	<section class="">
-		<header class="flex justify-between items-center px-12 py-6">
+
+	<section class="bg-greesn-100">
+		<header class="flex justify-between items-center px-12">
 			<p class="tracking-wider text-sm font-bold text-gray-400">A DESIGN THINKING AGENCY</p>
-			<div class="border border-4 border-black px-4">
+			<div class="h-20 z-50">
 				<NavLink href="/" class="uppercase text-3xl font-semibold tracking-wider">
-					Stratix
+					<img class="-mt-5 h-56 hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				</NavLink>
 			</div>
 			<!-- <hr class="w-1/2"> -->
@@ -27,9 +27,6 @@
 		</div>
 	</section>
 
-
-
-	<!-- </div> -->
 </template>
 
 <script setup>
