@@ -1,11 +1,11 @@
 <template>
 
 	<section class="">
-		<header class="flex justify-end xl:justify-between items-center px-6 xl:px-12">
+		<header :class="$page.component === 'Home'? 'justify-end': 'justify-between'" class="flex items-center px-6 xl:px-12">
 
 			<p class="hidden xl:block tracking-wider text-sm font-bold text-gray-400">A DESIGN THINKING AGENCY</p>
 
-			<div class="hidden xl:block h-20 z-50 xl:-mr-20">
+			<div :class="$page.component === 'Home'? 'hidden': 'block'" class="xl:block h-20 z-50 xl:-mr-20">
 				<NavLink href="/" class="uppercase text-3xl font-semibold tracking-wider">
 					<img class="xl:-mt-5 h-32 xl:h-56 hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				</NavLink>
@@ -20,7 +20,7 @@
 					<svg v-if="toggleMenuActive" @click="toggleMenuActive = false" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 					</svg>
-					<div v-if="toggleMenuActive" class="absolute top-10 right-0 border p-8 bg-white">
+					<div v-if="toggleMenuActive" class="absolute top-14 right-0 border p-8 bg-white">
 						<div @click="toggleMenuActive = false">
 							<Nav />
 						</div>
