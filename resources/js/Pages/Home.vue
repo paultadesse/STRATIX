@@ -41,7 +41,7 @@
 		</div>
 	</div>
 	<!-- partners -->
-	<div class="bg-gray-50 xl:py-16 flex justify-center">
+	<div class="xl:py-16 flex justify-center">
 		<div class="pt-7 xl:px-36">
 			<div class=" grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center">
 				<div>
@@ -75,9 +75,9 @@
 	<!-- what we do -->
 
 	<div class="px-6 xl:px-12 py-12">
-		<div class="py-12 flex justify-center">
+		<div class="pb-12 flex justify-center">
 			<div class="max-w-3xl">
-				<h2 class="text-center text-gray-700 xl:text-2xl font-semibold uppercase tracking-wider font-poppins">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2>
+				<h2 class="text-center text-gray-700 xl:text-2xl font-bold uppercase tracking-wider font-poppins">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2>
 			</div>
 				
 		</div>
