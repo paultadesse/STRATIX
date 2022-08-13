@@ -8,11 +8,16 @@
 		<div class="">
 			<!-- Al Group -->
 			<div class="xl:flex justify-around bg-black">
-				<div class="xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl">
-					<p>Images Goes here ...</p>
+				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
+					<div class="grid grid-cols-3 xl:gap-2">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-49.jpg">
+						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-57.jpg">
+						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-53.jpg">
+						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-55.jpg">
+					</div>
 				</div>
 
-				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl">
+				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black shadow-2xl">
 
 					<div class="xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl">
 						<p class="uppercase text-2xl font-bold font-poppins text-black">al group</p>
