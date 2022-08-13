@@ -1,7 +1,7 @@
 <template>
 
 	<section class="">
-		<header :class="$page.component === 'Home'? 'justify-end': 'justify-between'" class="flex items-center px-6 xl:px-12">
+		<header :class="$page.component === 'Home'? 'justify-end xl:justify-between': 'justify-between'" class="flex items-center px-6 xl:px-12">
 
 			<p class="hidden xl:block tracking-wider text-sm font-bold text-gray-400">A DESIGN THINKING AGENCY</p>
 
