@@ -19829,7 +19829,7 @@ var _hoisted_1 = {
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "h-screen flex justify-center justify-center items-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mx-auto my-auto pb-24"
+  "class": "mx-auto my-auto pb-40"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100",
   src: _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__["default"]

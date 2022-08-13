@@ -1,7 +1,7 @@
 <template>
 	<div class="relative">
 		<div class="h-screen flex justify-center justify-center items-center">
-			<div class="mx-auto my-auto pb-24">
+			<div class="mx-auto my-auto pb-40">
 				<img class="xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				<h2 class=" z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">A DESIGN THINKING AGENCY</h2>
 			</div>
