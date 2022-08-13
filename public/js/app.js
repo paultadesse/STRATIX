@@ -19522,25 +19522,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Achivments.vue?vue&type=script&lang=js":
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Achivments.vue?vue&type=script&lang=js ***!
-  \***********************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"]
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&lang=js":
 /*!********************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&lang=js ***!
@@ -19573,6 +19554,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
  // import VueParticles from 'vue-particles'
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -19715,7 +19715,7 @@ var _hoisted_1 = {
   "class": "space-y-20 px-6 xl:px-12 py-36"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center\"><h2 class=\"relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins\">we design with the future in mind.</h2></div><div class=\"flex justify-center\"><p class=\"max-w-2xl text-center font-light text-sm tracking-wider font-roboto\">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p></div><div><div class=\"xl:flex\"><div class=\"shrink-0\"><img class=\"xl:h-[650px] hover:scale-95 transition ease-in delay-100\" src=\"https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&amp;resize=1024x768\"></div><div class=\"flex xl:p-8 shadow-xl hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider font-poppins\">help big brands stay mighty</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-200\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div><div class=\"xl:flex flex-row-reverse\"><div class=\"shrink-0\"><img class=\"xl:h-[650px] hover:scale-95 transition ease-in delay-200\" src=\"https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&amp;resize=1024x768\"></div><div class=\"flex xl:p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider font-poppins\">We help grow your business</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-100\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center\"><h2 class=\"relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins\">A DESIGN THINKING AGENCY</h2></div><div class=\"flex justify-center\"><p class=\"max-w-2xl text-center font-light text-sm tracking-wider font-roboto\">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p></div><div><div class=\"xl:flex\"><div class=\"shrink-0\"><img class=\"xl:h-[650px] hover:scale-95 transition ease-in delay-100\" src=\"https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&amp;resize=1024x768\"></div><div class=\"flex xl:p-8 shadow-xl hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider font-poppins\">help big brands stay mighty</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-200\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div><div class=\"xl:flex flex-row-reverse\"><div class=\"shrink-0\"><img class=\"xl:h-[650px] hover:scale-95 transition ease-in delay-200\" src=\"https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&amp;resize=1024x768\"></div><div class=\"flex xl:p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200\"><div class=\"border p-8 space-y-10\"><div class=\"space-y-2\"><p class=\"text-2xl font-bold uppercase tracking-wider font-poppins\">We help grow your business</p><hr class=\"w-1/6 border-2 border-black\"></div><p class=\"text-gray-500 first-letter:text-2xl tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class=\"text-sm tracking-wider font-roboto\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-9 w-9 float-right hover:scale-125 transition ease-in delay-100\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div></div></div></div>", 3);
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
@@ -19748,28 +19748,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }), 64
   /* STABLE_FRAGMENT */
   ))])])]);
-}
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Achivments.vue?vue&type=template&id=75c0b7eb":
-/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Achivments.vue?vue&type=template&id=75c0b7eb ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-var _hoisted_1 = {
-  "class": "text-red-400"
-};
-function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h2", _hoisted_1, "Achivments Page");
 }
 
 /***/ }),
@@ -19850,13 +19828,13 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "h-screen flex justify-center items-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "relative -mt-36 z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins"
-}, "we design with the future in mind.")], -1
+}, "A DESIGN THINKING AGENCY")], -1
 /* HOISTED */
 );
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase font-poppins\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-sm xl:max-w-2xl z-10\"><p class=\"tracking-wider text-center font-roboto\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div><div class=\"absolute xl:top-0 bottom-0 right-0 -z\"><img class=\"h-32 hover:scale-95 transition ease-in delay-100\" src=\"" + _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"></div></div></div>", 1);
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-50 xl:py-16 flex justify-center\"><div class=\"pt-7 xl:px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px]\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div></div></div></div>", 1);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-50 xl:py-16 flex justify-center\"><div class=\"pt-7 xl:px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div></div></div></div>", 1);
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-12\"><div class=\"py-12 flex justify-center\"><div class=\"max-w-3xl\"><h2 class=\"text-center text-gray-700 xl:text-2xl font-semibold uppercase tracking-wider font-poppins\">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2></div></div><div class=\"grid xl:grid-cols-2 gap-2 xl:gap-8 shadow-xl xl:p-8 bg-gray-50\"><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">social media strategy</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">brand identity</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer. <br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">research &amp; insight</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">marketing video production</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div></div></div></div>", 1);
 
@@ -19891,6 +19869,32 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae":
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "space-y-20 px-6 xl:px-12 py-36"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><h2 class=\"text-5xl mx-auto uppercase max-w-4xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins\">If you can imagine it, we can create it for you.</h2><hr class=\"w-1/6 mx-auto mt-7 border-black\"></div><div class=\"\"><!-- Al Group --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl\"><p>Images Goes here ...</p></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">al group</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-500 text-sm tracking-wider\">Anchored in its unique and effective leadership development curriculum and a global network, the AL Group has been successfully producing and placing globally competitive African talent at a speed, scale and quality never before seen. Using an experiential, technology-enabled, peer-to-peer learning model, the AL Group has been equipping and harnessing the potential of the young African workforce to meaningfully engage with — and contribute to — African economies as leaders and innovators.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border\">Local Marketing Strategy</span><span class=\"text-xs p-2 border\">Copywriting</span><span class=\"text-xs p-2 border\">Graphic Design</span><span class=\"text-xs p-2 border\">Web Design</span><span class=\"text-xs p-2 border\">Social Media Marketing</span><span class=\"text-xs p-2 border\">Digital Advertising</span><span class=\"text-xs p-2 border\">Search Engine Optimization (SEO)</span><span class=\"text-xs p-2 border\">Google Display Networks (GDN)</span><span class=\"text-xs p-2 border\">Call Center Support</span><span class=\"text-xs p-2 border\">Research &amp; BI</span></div><div class=\"float-right py-4\"><button class=\"border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100\"><span> Read More </span><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div></div></div><!-- Kana TV --><div class=\"xl:flex flex-row-reverse justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl\"><p>Images Goes here ...</p></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">kana tv</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-500 text-sm tracking-wider\">With a vision to be the nation’s leading entertainment television channel, Kana TV founders needed an unrivalled market entry strategy coupled with a unique brand identity to take Ethiopia by a storm. Tasked with this mission, STRATIX took a design thinking mindset to successfully launch Ethiopia’s most loved TV station. Six years later, Kana’s brand and campaigns remain etched in the minds of viewers across the country.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border\">Media Landscape Research &amp; BI</span><span class=\"text-xs p-2 border\">Business Strategy</span><span class=\"text-xs p-2 border\">Content Strategy</span><span class=\"text-xs p-2 border\">Brand Identity Design</span><span class=\"text-xs p-2 border\">Brand Launch &amp; Activation</span><span class=\"text-xs p-2 border\">Digital Media Strategy</span></div><div class=\"float-right py-4\"><button class=\"border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100\"><span> Read More </span><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div></div></div><!-- Ethiopian tourism board --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl\"><p>Images Goes here ...</p></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">ETHIOPIAN TOURISM BOARD</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-500 text-sm tracking-wider\">When one thinks of Ethiopian tourism campaigns, the words 13 MONTHS OF SUNSHINE echo a long held belief that Ethiopia has 13 months of sunshine. The Ethiopian tourism board wanted Ethiopia to be known for much more than that. So we were tasked to design a new tourism brand strategy to differentiate Ethiopia from competitors including a proposed visual brand identity concept and message, a brand manual that includes the visual brand identity, communication messages and suggested applications as recommended procedures for legal registration and copywriting of the brand.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border\">Creative Strategy</span><span class=\"text-xs p-2 border\">Brand Strategy</span><span class=\"text-xs p-2 border\">Brand Architecture</span><span class=\"text-xs p-2 border\">Brand Expression</span><span class=\"text-xs p-2 border\">Brand Identity</span><span class=\"text-xs p-2 border\">Brand Identity Design</span><span class=\"text-xs p-2 border\">Marketing Collateral Design</span><span class=\"text-xs p-2 border\">Website Design</span><span class=\"text-xs p-2 border\">Consumer Insights</span><span class=\"text-xs p-2 border\">Copywriting</span></div><div class=\"float-right py-4\"><button class=\"border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100\"><span> Read More </span><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div></div></div><!-- Diageo - Malta Guinness --><div class=\"xl:flex flex-row-reverse justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl\"><p>Images Goes here ...</p></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">DIAGEO – MALTA GUINNESS</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-500 text-sm tracking-wider\">After Diageo acquired Meta Abo Brewery in 2010, it was eager to expand its portfolio and enter the soft drink category. With that in mind, Malta Guinness: a non-alcoholic malt beverage was to be introduced for the first time to Ethiopia. </p><p class=\"max-w-2xl font-roboto text-gray-500 text-sm tracking-wider\"> Diageo wanted an integrated ATL and BTL marketing campaign to increase brand awareness; covering various part of the city where target consumers frequent. Radio ads along with vibrant wall brandings were requested to reinforce the BTL campaign. For the BTL campaign, Diageo wanted to have sampling promotions to drive across the functional benefits of the product. </p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border\">Creative Strategy</span><span class=\"text-xs p-2 border\">Campaign Identity</span><span class=\"text-xs p-2 border\">Marketing Collateral Design</span><span class=\"text-xs p-2 border\">Regional Activations</span><span class=\"text-xs p-2 border\">Consumer Insights</span><span class=\"text-xs p-2 border\">Copywriting</span></div><div class=\"float-right py-4\"><button class=\"border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100\"><span> Read More </span><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div></div></div><!-- Diageo - Smirnoff --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl\"><p>Images Goes here ...</p></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">DIAGEO – SMIRNOFF</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-500 text-sm tracking-wider\">With rival Vodka brands aggressively cutting into Smirnoff’s share of the market, Diageo was keen to regain the high ground and position Smirnoff as the beverage of choice for young adults at bars and entertainment outlets. </p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border\">Creative Strategy</span><span class=\"text-xs p-2 border\">Campaign Identity</span><span class=\"text-xs p-2 border\">Marketing Collateral Design</span><span class=\"text-xs p-2 border\">City Activations</span><span class=\"text-xs p-2 border\">Consumer Insights</span><span class=\"text-xs p-2 border\">Bar Tender Training</span><span class=\"text-xs p-2 border\">Logistics Planning</span><span class=\"text-xs p-2 border\">Digital Engagment</span></div><div class=\"float-right py-4\"><button class=\"border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100\"><span> Read More </span><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"></path></svg></button></div></div></div></div></div>", 2);
+
+var _hoisted_4 = [_hoisted_2];
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086":
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086 ***!
@@ -19920,7 +19924,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_4 = {
-  "class": "h-20 z-50"
+  "class": "h-20 z-50 xl:-mr-20"
 };
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -20041,18 +20045,33 @@ var _hoisted_1 = {
   "class": "list-none flex flex-col xl:block space-y-6 xl:space-y-0 xl:space-x-12 uppercase tracking-wider font-poppins"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("About");
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Works");
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("About");
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+    href: "/works",
+    active: _ctx.$page.component === 'Works',
+    "class": "hover:text-black font-semibold text-gray-500"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_2];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
     href: "/about",
     active: _ctx.$page.component === 'About',
     "class": "hover:text-black font-semibold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2];
+      return [_hoisted_3];
     }),
     _: 1
     /* STABLE */
@@ -20065,7 +20084,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "hover:text-black font-semibold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_3];
+      return [_hoisted_4];
     }),
     _: 1
     /* STABLE */
@@ -29216,34 +29235,6 @@ if (false) {}
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Achivments.vue":
-/*!*******************************************!*\
-  !*** ./resources/js/Pages/Achivments.vue ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Achivments_vue_vue_type_template_id_75c0b7eb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Achivments.vue?vue&type=template&id=75c0b7eb */ "./resources/js/Pages/Achivments.vue?vue&type=template&id=75c0b7eb");
-/* harmony import */ var _Achivments_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Achivments.vue?vue&type=script&lang=js */ "./resources/js/Pages/Achivments.vue?vue&type=script&lang=js");
-/* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
-
-
-
-
-;
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Achivments_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Achivments_vue_vue_type_template_id_75c0b7eb__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Achivments.vue"]])
-/* hot reload */
-if (false) {}
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
-
-/***/ }),
-
 /***/ "./resources/js/Pages/Contact.vue":
 /*!****************************************!*\
   !*** ./resources/js/Pages/Contact.vue ***!
@@ -29295,6 +29286,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Works.vue":
+/*!**************************************!*\
+  !*** ./resources/js/Pages/Works.vue ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Works.vue?vue&type=template&id=aef9eaae */ "./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae");
+/* harmony import */ var _Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Works.vue?vue&type=script&lang=js */ "./resources/js/Pages/Works.vue?vue&type=script&lang=js");
+/* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Works.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -29403,22 +29422,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Achivments.vue?vue&type=script&lang=js":
-/*!*******************************************************************!*\
-  !*** ./resources/js/Pages/Achivments.vue?vue&type=script&lang=js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Achivments_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Achivments_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Achivments.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Achivments.vue?vue&type=script&lang=js");
- 
-
-/***/ }),
-
 /***/ "./resources/js/Pages/Contact.vue?vue&type=script&lang=js":
 /*!****************************************************************!*\
   !*** ./resources/js/Pages/Contact.vue?vue&type=script&lang=js ***!
@@ -29447,6 +29450,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Works.vue?vue&type=script&lang=js":
+/*!**************************************************************!*\
+  !*** ./resources/js/Pages/Works.vue?vue&type=script&lang=js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Works.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&lang=js");
  
 
 /***/ }),
@@ -29515,22 +29534,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Achivments.vue?vue&type=template&id=75c0b7eb":
-/*!*************************************************************************!*\
-  !*** ./resources/js/Pages/Achivments.vue?vue&type=template&id=75c0b7eb ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Achivments_vue_vue_type_template_id_75c0b7eb__WEBPACK_IMPORTED_MODULE_0__.render)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Achivments_vue_vue_type_template_id_75c0b7eb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Achivments.vue?vue&type=template&id=75c0b7eb */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Achivments.vue?vue&type=template&id=75c0b7eb");
-
-
-/***/ }),
-
 /***/ "./resources/js/Pages/Contact.vue?vue&type=template&id=2c2b26f2":
 /*!**********************************************************************!*\
   !*** ./resources/js/Pages/Contact.vue?vue&type=template&id=2c2b26f2 ***!
@@ -29559,6 +29562,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=template&id=6a63e488 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae":
+/*!********************************************************************!*\
+  !*** ./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Works.vue?vue&type=template&id=aef9eaae */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae");
 
 
 /***/ }),
@@ -29963,12 +29982,12 @@ function compileToFunction(template, options) {
 var map = {
 	"./About": "./resources/js/Pages/About.vue",
 	"./About.vue": "./resources/js/Pages/About.vue",
-	"./Achivments": "./resources/js/Pages/Achivments.vue",
-	"./Achivments.vue": "./resources/js/Pages/Achivments.vue",
 	"./Contact": "./resources/js/Pages/Contact.vue",
 	"./Contact.vue": "./resources/js/Pages/Contact.vue",
 	"./Home": "./resources/js/Pages/Home.vue",
-	"./Home.vue": "./resources/js/Pages/Home.vue"
+	"./Home.vue": "./resources/js/Pages/Home.vue",
+	"./Works": "./resources/js/Pages/Works.vue",
+	"./Works.vue": "./resources/js/Pages/Works.vue"
 };
 
 

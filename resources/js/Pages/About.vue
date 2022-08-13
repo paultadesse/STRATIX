@@ -1,7 +1,7 @@
 <template>
 	<div class="space-y-20 px-6 xl:px-12 py-36">
 		<div class="flex justify-center">
-			<h2 class="relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins">we design with the future in mind.</h2>
+			<h2 class="relative z-10 text-5xl uppercase max-w-xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins">A DESIGN THINKING AGENCY</h2>
 		</div>
 		<div class="flex justify-center">
 			<p class=" max-w-2xl text-center font-light text-sm tracking-wider font-roboto">Since 2009, we’ve worked with ambitious startups, global nonprofits, and Fortune 500s to design and develop digital experiences and custom applications that increase sales, boost brand awareness, and streamline operations.</p>

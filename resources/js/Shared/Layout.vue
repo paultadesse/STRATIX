@@ -5,7 +5,7 @@
 
 			<p class="hidden xl:block tracking-wider text-sm font-bold text-gray-400">A DESIGN THINKING AGENCY</p>
 
-			<div class="h-20 z-50">
+			<div class="h-20 z-50 xl:-mr-20">
 				<NavLink href="/" class="uppercase text-3xl font-semibold tracking-wider">
 					<img class="xl:-mt-5 h-32 xl:h-56 hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				</NavLink>

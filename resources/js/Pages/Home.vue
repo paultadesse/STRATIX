@@ -1,7 +1,7 @@
 <template>
 	<div class="relative">
 		<div class="h-screen flex justify-center items-center">
-			<h2 class="relative -mt-36 z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">we design with the future in mind.</h2>
+			<h2 class="relative -mt-36 z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">A DESIGN THINKING AGENCY</h2>
 		</div>
 		<vue-particles class="absolute inset-0 -mt-10"
         color="#44403c"
@@ -45,28 +45,28 @@
 		<div class="pt-7 xl:px-36">
 			<div class=" grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center">
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/COKA_COLA.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/COKA_COLA.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/DIAGEO.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/DIAGEO.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/SMIRNOFF.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/SMIRNOFF.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/ALX.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/ALX.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/TEDx.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/TEDx.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/ALG.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/ALG.svg">
 				</div>
 				<div>
-					<img class="h-[96px]" src="@/../assets/images/stratix_clients/KANA_TV.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/KANA_TV.svg">
 				</div>
 			</div>
 		</div>

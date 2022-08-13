@@ -18,8 +18,8 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
-Route::get('/achivments', function () {
-    return Inertia::render('Achivments');
+Route::get('/works', function () {
+    return Inertia::render('Works');
 });
 
 Route::get('/about', function () {
