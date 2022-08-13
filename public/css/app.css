@@ -565,6 +565,10 @@ video {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -588,6 +592,18 @@ video {
 }
 .mt-7 {
   margin-top: 1.75rem;
+}
+.-mt-52 {
+  margin-top: -13rem;
+}
+.-mt-64 {
+  margin-top: -16rem;
+}
+.-mt-20 {
+  margin-top: -5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
 }
 .block {
   display: block;
@@ -630,6 +646,12 @@ video {
 }
 .h-20 {
   height: 5rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.h-52 {
+  height: 13rem;
 }
 .w-1\/6 {
   width: 16.666667%;
@@ -732,6 +754,9 @@ video {
 .items-center {
   align-items: center;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .justify-center {
   justify-content: center;
 }
@@ -821,15 +846,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
-.border-opacity-50 {
-  --tw-border-opacity: 0.5;
-}
-.border-opacity-40 {
-  --tw-border-opacity: 0.4;
-}
-.border-opacity-20 {
-  --tw-border-opacity: 0.2;
-}
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -841,6 +857,14 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
 }
 .fill-current {
   fill: currentColor;
@@ -927,20 +951,36 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
 .pr-8 {
   padding-right: 2rem;
 }
 .pt-7 {
   padding-top: 1.75rem;
 }
-.pl-2 {
-  padding-left: 0.5rem;
-}
 .pb-12 {
   padding-bottom: 3rem;
 }
+.pl-2 {
+  padding-left: 0.5rem;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
+}
 .text-center {
   text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .font-poppins {
   font-family: Poppins;
@@ -1163,12 +1203,16 @@ video {
     grid-column: span 3 / span 3;
   }
 
-  .xl\:-mr-20 {
-    margin-right: -5rem;
+  .xl\:float-right {
+    float: right;
   }
 
   .xl\:-mt-5 {
     margin-top: -1.25rem;
+  }
+
+  .xl\:-mr-20 {
+    margin-right: -5rem;
   }
 
   .xl\:block {
@@ -1213,6 +1257,14 @@ video {
 
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
   }
 
   .xl\:gap-8 {

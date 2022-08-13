@@ -1,18 +1,18 @@
 <template>
 
-	<section class="bg-greesn-100">
-		<header class="flex justify-between items-center px-6 xl:px-12">
+	<section class="">
+		<header class="flex justify-end xl:justify-between items-center px-6 xl:px-12">
 
 			<p class="hidden xl:block tracking-wider text-sm font-bold text-gray-400">A DESIGN THINKING AGENCY</p>
 
-			<div class="h-20 z-50 xl:-mr-20">
+			<div class="hidden xl:block h-20 z-50 xl:-mr-20">
 				<NavLink href="/" class="uppercase text-3xl font-semibold tracking-wider">
 					<img class="xl:-mt-5 h-32 xl:h-56 hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				</NavLink>
 			</div>
 
 			<div>
-				<div class="relative z-50 xl:hidden">
+				<div class="relative z-50 xl:hidden py-5">
 					<button v-if="toggleMenuActive" @click="toggleMenuActive = false" tabindex="-1" class="fixed top-0 right-0 bottom-0 left-0 bg-black opacity-50 cursor-default"></button>
 					<svg v-if="!toggleMenuActive" @click="toggleMenuActive = true" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 xl:hidden" fill="none" viewBox="0 0 24 24" 	stroke="currentColor" stroke-width="2">
   						<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />

@@ -19801,15 +19801,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-/* harmony import */ var _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg */ "./resources/assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg");
-/* harmony import */ var _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/../assets/images/stratix_clients/COKA_COLA.svg */ "./resources/assets/images/stratix_clients/COKA_COLA.svg");
-/* harmony import */ var _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/../assets/images/stratix_clients/DIAGEO.svg */ "./resources/assets/images/stratix_clients/DIAGEO.svg");
-/* harmony import */ var _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/../assets/images/stratix_clients/SMIRNOFF.svg */ "./resources/assets/images/stratix_clients/SMIRNOFF.svg");
-/* harmony import */ var _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/../assets/images/stratix_clients/ALX.svg */ "./resources/assets/images/stratix_clients/ALX.svg");
-/* harmony import */ var _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/../assets/images/stratix_clients/TEDx.svg */ "./resources/assets/images/stratix_clients/TEDx.svg");
-/* harmony import */ var _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg */ "./resources/assets/images/stratix_clients/TOURISM_ETHIOPIA.svg");
-/* harmony import */ var _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/../assets/images/stratix_clients/ALG.svg */ "./resources/assets/images/stratix_clients/ALG.svg");
-/* harmony import */ var _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/../assets/images/stratix_clients/KANA_TV.svg */ "./resources/assets/images/stratix_clients/KANA_TV.svg");
+/* harmony import */ var _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg */ "./resources/assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg");
+/* harmony import */ var _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/../assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg */ "./resources/assets/images/stratix_logo/STRATIX_LOGO_WHITE_ON_BLACK.svg");
+/* harmony import */ var _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/../assets/images/stratix_clients/COKA_COLA.svg */ "./resources/assets/images/stratix_clients/COKA_COLA.svg");
+/* harmony import */ var _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/../assets/images/stratix_clients/DIAGEO.svg */ "./resources/assets/images/stratix_clients/DIAGEO.svg");
+/* harmony import */ var _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/../assets/images/stratix_clients/SMIRNOFF.svg */ "./resources/assets/images/stratix_clients/SMIRNOFF.svg");
+/* harmony import */ var _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/../assets/images/stratix_clients/ALX.svg */ "./resources/assets/images/stratix_clients/ALX.svg");
+/* harmony import */ var _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/../assets/images/stratix_clients/TEDx.svg */ "./resources/assets/images/stratix_clients/TEDx.svg");
+/* harmony import */ var _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg */ "./resources/assets/images/stratix_clients/TOURISM_ETHIOPIA.svg");
+/* harmony import */ var _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/../assets/images/stratix_clients/ALG.svg */ "./resources/assets/images/stratix_clients/ALG.svg");
+/* harmony import */ var _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @/../assets/images/stratix_clients/KANA_TV.svg */ "./resources/assets/images/stratix_clients/KANA_TV.svg");
+
 
 
 
@@ -19825,16 +19827,21 @@ var _hoisted_1 = {
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "h-screen flex justify-center items-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "relative -mt-36 z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins"
-}, "A DESIGN THINKING AGENCY")], -1
+  "class": "h-screen flex justify-center justify-center items-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mx-auto my-auto pb-24"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100",
+  src: _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__["default"]
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "z-10 text-2xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins"
+}, "A DESIGN THINKING AGENCY")])], -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase font-poppins\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-sm xl:max-w-2xl z-10\"><p class=\"tracking-wider text-center font-roboto\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div><div class=\"absolute xl:top-0 bottom-0 right-0 -z\"><img class=\"h-32 hover:scale-95 transition ease-in delay-100\" src=\"" + _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"></div></div></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase font-poppins\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-sm xl:max-w-2xl z-10\"><p class=\"tracking-wider text-center font-roboto\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div><div class=\"absolute xl:top-0 bottom-0 right-0 -z\"><img class=\"h-32 hover:scale-95 transition ease-in delay-100\" src=\"" + _assets_images_stratix_logo_STRATIX_LOGO_WHITE_ON_BLACK_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div></div></div>", 1);
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"xl:py-16 flex justify-center\"><div class=\"pt-7 xl:px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div></div></div></div>", 1);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"xl:py-16 flex justify-center\"><div class=\"pt-7 xl:px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_10__["default"] + "\"></div></div></div></div>", 1);
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-12\"><div class=\"pb-12 flex justify-center\"><div class=\"max-w-3xl\"><h2 class=\"text-center text-gray-700 xl:text-2xl font-bold uppercase tracking-wider font-poppins\">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2></div></div><div class=\"grid xl:grid-cols-2 gap-2 xl:gap-8 shadow-xl xl:p-8 bg-gray-50\"><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">social media strategy</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">brand identity</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer. <br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">research &amp; insight</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">marketing video production</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div></div></div></div>", 1);
 
@@ -19911,10 +19918,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = {
-  "class": "bg-greesn-100"
+  "class": ""
 };
 var _hoisted_2 = {
-  "class": "flex justify-between items-center px-6 xl:px-12"
+  "class": "flex justify-end xl:justify-between items-center px-6 xl:px-12"
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -19924,7 +19931,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_4 = {
-  "class": "h-20 z-50 xl:-mr-20"
+  "class": "hidden xl:block h-20 z-50 xl:-mr-20"
 };
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -19935,7 +19942,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_6 = {
-  "class": "relative z-50 xl:hidden"
+  "class": "relative z-50 xl:hidden py-5"
 };
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
