@@ -39,7 +39,7 @@
 							<span class="text-xs p-2 border border-black text-gray-500">Call Center Support</span>		
 							<span class="text-xs p-2 border border-black text-gray-500">Research & BI</span>		
 						</div>
-						<div class="float-right py-4">
+						<!-- <div class="float-right py-4">
 							<button class="border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100">
 									
 								<span>
@@ -49,7 +49,7 @@
 	  								<path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 								</svg>
 						</button>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -57,8 +57,12 @@
 
 			<!-- Kana TV -->
 			<div class="xl:flex flex-row-reverse justify-around bg-black">
-				<div class="xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl">
-					<p>Images Goes here ...</p>
+				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
+					<div class="grid grid-cols-3 xl:gap-2">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/Picture2.jpg">
+						<img class="col-span-2  hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/photo_2022-08-14_12-19-24.jpg">
+						<img class="col-span-1 h-full hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/photo_2022-08-14_12-24-23.jpg">
+					</div>
 				</div>
 
 				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl">
@@ -76,7 +80,7 @@
 							<span class="text-xs p-2 border border-black text-gray-500">Brand Launch & Activation</span>		
 							<span class="text-xs p-2 border border-black text-gray-500">Digital Media Strategy</span>		
 						</div>
-						<div class="float-right py-4">
+						<!-- <div class="float-right py-4">
 							<button class="border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100">
 									
 								<span>
@@ -86,7 +90,7 @@
 	  								<path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 								</svg>
 						</button>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -94,8 +98,10 @@
 
 			<!-- Ethiopian tourism board -->
 			<div class="xl:flex justify-around bg-black">
-				<div class="xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl">
-					<p>Images Goes here ...</p>
+				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
+					<div class="grid grid-cols-3 xl:gap-2">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/ETB/Picture6.png">					
+					</div>
 				</div>
 
 				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl">
@@ -120,7 +126,7 @@
 							<span class="text-xs p-2 border border-black text-gray-500">Consumer Insights</span>		
 							<span class="text-xs p-2 border border-black text-gray-500">Copywriting</span>		
 						</div>
-						<div class="float-right py-4">
+						<!-- <div class="float-right py-4">
 							<button class="border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100">
 									
 								<span>
@@ -130,7 +136,7 @@
 	  								<path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 								</svg>
 						</button>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -138,8 +144,10 @@
 
 			<!-- Diageo - Malta Guinness -->
 			<div class="xl:flex flex-row-reverse justify-around bg-black">
-				<div class="xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl">
-					<p>Images Goes here ...</p>
+				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
+					<div class="grid grid-cols-3 xl:gap-2">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/GUINNESS/photo_2022-08-14_12-33-40.jpg">					
+					</div>
 				</div>
 
 				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl">
@@ -163,7 +171,7 @@
 							<span class="text-xs p-2 border border-black text-gray-500">Consumer Insights</span>		
 							<span class="text-xs p-2 border border-black text-gray-500">Copywriting</span>		
 						</div>
-						<div class="float-right py-4">
+						<!-- <div class="float-right py-4">
 							<button class="border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100">
 									
 								<span>
@@ -173,7 +181,7 @@
 	  								<path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 								</svg>
 						</button>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -182,11 +190,13 @@
 			<!-- Diageo - Smirnoff -->
 
 			<div class="xl:flex justify-around bg-black">
-				<div class="xl:w-1/2 flex justify-center items-center space-y-4 text-white p-9 shadow-2xl">
-					<p>Images Goes here ...</p>
+				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
+					<div class="grid grid-cols-3 xl:gap-2">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/SMIRNOFF/Picture5.png">					
+					</div>
 				</div>
 
-				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl">
+				<div class="xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black shadow-2xl">
 
 					<div class="xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl">
 						<p class="uppercase text-2xl font-bold font-poppins text-black">DIAGEO – SMIRNOFF</p>
@@ -203,7 +213,7 @@
 							<span class="text-xs p-2 border border-black text-gray-500">Logistics Planning</span>		
 							<span class="text-xs p-2 border border-black text-gray-500">Digital Engagment</span>		
 						</div>
-						<div class="float-right py-4">
+						<!-- <div class="float-right py-4">
 							<button class="border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100">
 									
 								<span>
@@ -213,7 +223,7 @@
 	  								<path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 								</svg>
 						</button>
-						</div>
+						</div> -->
 				</div>
 
 				</div>
