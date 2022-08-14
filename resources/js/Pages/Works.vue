@@ -59,7 +59,7 @@
 			<div class="xl:flex flex-row-reverse justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/Picture7.png">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/Picture8.png">
 					</div>
 				</div>
 
@@ -98,7 +98,7 @@
 			<div class="xl:flex justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/ETB/Picture6.png">					
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/ETB/Picture9.png">					
 					</div>
 				</div>
 
@@ -190,7 +190,7 @@
 			<div class="xl:flex justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/SMIRNOFF/Picture5.png">					
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/SMIRNOFF/Picture10.png">					
 					</div>
 				</div>
 
