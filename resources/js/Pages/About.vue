@@ -9,7 +9,7 @@
 		<div>
 			<div class="xl:flex">
 				<div class="shrink-0">
-					<img class="xl:h-[650px] hover:scale-95 transition ease-in delay-100" src="https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&resize=1024x768">
+					<img class="xl:h-[650px] w-full hover:scale-95 transition ease-in delay-100" src="https://cdn.dribbble.com/userupload/2798800/file/original-45a85aa55d9e5726cd9e4d427e402008.jpg?compress=1&resize=1024x768">
 				</div>
 				<div class="flex xl:p-8 shadow-xl hover:scale-95 transition ease-in delay-200">
 					<div class="border p-8 space-y-10">	
@@ -39,7 +39,7 @@
 
 			<div class="xl:flex flex-row-reverse">
 				<div class="shrink-0">
-					<img class="xl:h-[650px] hover:scale-95 transition ease-in delay-200" src="https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&resize=1024x768">
+					<img class="xl:h-[650px] w-full hover:scale-95 transition ease-in delay-200" src="https://cdn.dribbble.com/userupload/2920371/file/original-8e1648d8bbdf9b93b24394163c0301d6.png?compress=1&resize=1024x768">
 				</div>
 				<div class="flex xl:p-8 shadow-xl bg-gray-50 hover:scale-95 transition ease-in delay-200">
 					<div class="border p-8 space-y-10">
