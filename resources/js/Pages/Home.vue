@@ -124,17 +124,17 @@
 		<div class="space-y-4">
 			
 			<div class="grid grid-cols-6 gap-4 place-items-center content-center">
-				<div class="xl:col-span-3 xl:row-span-2 col-span-6 flex items-center">
-					<img class="hover:scale-105 transition ease-in delay-100" src="@/../assets/images/others/multi_ethnic_diverse_businesspeople_working_in_bus_2022_02_14_15.jpeg">
+				<div class="xl:col-span-3 bg-black h-full xl:row-span-2 col-span-6 flex items-center">
+					<img class="hover:scale-105 transition ease-in delay-100" src="@/../assets/images/others/multi_ethnic_diverse_businesspeople_working_in_bus_2022_02_14_15.png">
 				</div>
-				<div class="xl:col-span-3 col-span-6 shadow xl:flex items-center bg-black text-white">
+				<div class="xl:col-span-3 col-span-6 shadow xl:flex items-center text-black border border-black">
 					<div class="p-4">
 						<svg class="h-12 mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" 	xmlns="http://www.w3.org/2000/svg">
 		              		<path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
 		          		</svg>
 		          		<h1 class="text-lg xl:text-2xl font-bold font-poppins">Speed and quality of creative was just wow</h1>
 		          		<div class="p-4 ml-2">
-		          			<p class="border-l-[1px] p-4 max-w-3xl font-roboto text-gray-300 tracking-wide">I have engaged STRATIX on various projects ranging from tourism to land and property campaigns. If i were to sum their work in a few words, I would say - speed, resonsiveness and outstanding creative work.</p>
+		          			<p class="border-l-[1px] border-black p-4 max-w-3xl font-roboto text-gray-700 tracking-wide">I have engaged STRATIX on various projects ranging from tourism to land and property campaigns. If i were to sum their work in a few words, I would say - speed, responsiveness and outstanding creative work.</p>
 
 		          			<div class="text-sm text-center py-8 space-x-2 font-bold font-roboto tracking-wide">
 		          				<div class="flex justify-center items-center space-x-2">
@@ -146,14 +146,14 @@
 		          		</div>
 					</div>
 				</div>
-				<div class="xl:col-span-3 col-span-6 shadow-2xl xl:flex items-center bg-black text-white">
+				<div class="xl:col-span-3 col-span-6 shadow-2xl xl:flex items-center text-black border border-black">
 					<div class="p-4">
 						<svg class="h-12 mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" 	xmlns="http://www.w3.org/2000/svg">
 		              		<path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
 		          		</svg>
 		          		<h1 class="text-lg xl:text-2xl font-bold font-poppins">Ultimate problem solvers</h1>
 		          		<div class="p-4 ml-2">
-		          			<p class="border-l-[1px] p-4 max-w-3xl font-roboto text-gray-300 tracking-wide">STRATIX are like mad scientists curious to tackle any problem you throw at them. They have crafted solutions for the AL Group that surpassed any KPI given to them.  From end to end digital marketing, programmatic advertising, call center support, research and creative, STRATIX is an exceptional agency that accelerates your results.</p>
+		          			<p class="border-l-[1px] border-black p-4 max-w-3xl font-roboto text-gray-700 tracking-wide">STRATIX are like mad scientists curious to tackle any problem you throw at them. They have crafted solutions for the AL Group that surpassed any KPI given to them.  From end to end digital marketing, programmatic advertising, call center support, research and creative, STRATIX is an exceptional agency that accelerates your results.</p>
 
 		          			<div class="text-sm text-center py-8 space-x-2 font-bold font-roboto tracking-wide">
 		          				<div class="flex justify-center items-center space-x-2">

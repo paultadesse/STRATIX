@@ -816,6 +816,9 @@ video {
 .border-2 {
   border-width: 2px;
 }
+.border-4 {
+  border-width: 4px;
+}
 .border-l-\[1px\] {
   border-left-width: 1px;
 }
