@@ -125,7 +125,7 @@
 			
 			<div class="grid grid-cols-6 gap-4 place-items-center content-center">
 				<div class="xl:col-span-3 xl:row-span-2 col-span-6 flex items-center">
-					<h2 class="xl:max-w-3xl font-poppins text-center xl:text-7xl font-bold tracking-wider">Our clients love what we do.</h2>
+					<img class="hover:scale-105 transition ease-in delay-100" src="@/../assets/images/others/multi_ethnic_diverse_businesspeople_working_in_bus_2022_02_14_15.jpeg">
 				</div>
 				<div class="xl:col-span-3 col-span-6 shadow xl:flex items-center bg-black text-white">
 					<div class="p-4">

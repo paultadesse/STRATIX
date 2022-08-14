@@ -59,9 +59,7 @@
 			<div class="xl:flex flex-row-reverse justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/Picture2.jpg">
-						<img class="col-span-2  hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/photo_2022-08-14_12-19-24.jpg">
-						<img class="col-span-1 h-full hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/photo_2022-08-14_12-24-23.jpg">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/Picture7.png">
 					</div>
 				</div>
 
