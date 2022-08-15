@@ -126,7 +126,7 @@
 					<hr class="xl:border border-white xl:w-1/3">
 					<div class="py-4 mx-auto text-center space-y-4">
 							<p class="text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto">MARKETING VIDEO PRODUCTION</p>
-							<p class="uppercase xl:text-lg font-light tracking-wide">INSPIRE, INFLUENCE, EXCITE AND IMPRESS</p>
+							<p class="uppercase text-xs xl:text-sm font-light tracking-wider">INSPIRE, INFLUENCE, EXCITE AND IMPRESS</p>
 					</div>
 					<hr class="xl:border border-white xl:w-1/2">
 				</div>
