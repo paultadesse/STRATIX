@@ -611,6 +611,9 @@ video {
 .h-9 {
   height: 2.25rem;
 }
+.h-7 {
+  height: 1.75rem;
+}
 .h-4 {
   height: 1rem;
 }
@@ -641,9 +644,6 @@ video {
 .h-32 {
   height: 8rem;
 }
-.h-7 {
-  height: 1.75rem;
-}
 .w-full {
   width: 100%;
 }
@@ -659,6 +659,9 @@ video {
 .w-auto {
   width: auto;
 }
+.w-7 {
+  width: 1.75rem;
+}
 .w-4 {
   width: 1rem;
 }
@@ -673,9 +676,6 @@ video {
 }
 .w-6 {
   width: 1.5rem;
-}
-.w-7 {
-  width: 1.75rem;
 }
 .max-w-xl {
   max-width: 36rem;
@@ -813,9 +813,6 @@ video {
 }
 .border-b {
   border-bottom-width: 1px;
-}
-.border-r-2 {
-  border-right-width: 2px;
 }
 .border-black {
   --tw-border-opacity: 1;
@@ -982,10 +979,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1297,18 +1290,13 @@ video {
     line-height: 1;
   }
 
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
 
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
