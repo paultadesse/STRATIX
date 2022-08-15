@@ -41,7 +41,7 @@
 	<section>
 		<div class="py-7 bg-black text-white">
 			<div class="flex justify-center">
-				<p class="text-sm">© {{ year }} Stratix All rights reserved</p>
+				<p class="text-sm">© {{ year }} STRATIX All rights reserved</p>
 			</div>
 		</div>
 	</section>
