@@ -120,7 +120,7 @@
 
 	<!-- testimonials sction -->
 
-	<div class="py-7 px-6 xl:px-12">
+	<!-- <div class="py-7 px-6 xl:px-12">
 		<div class="space-y-4">
 			
 			<div class="grid grid-cols-6 gap-4 place-items-center content-center">
@@ -169,7 +169,7 @@
 			</div>
 
 		</div>
-	</div>
+	</div> -->
 
 </template>
 
