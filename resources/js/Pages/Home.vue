@@ -1,8 +1,17 @@
 <template>
+	<Head>
+		<title>Design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients</title>
+		<meta 
+			name="description"
+			content="Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning"
+			head-key="description"
+		>
+	</Head>
+
 	<div class="relative">
 		<div class="h-screen flex justify-center justify-center items-center">
 			<div class="mx-auto my-auto pb-56">
-				<img class="xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
+				<img class="xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100" alt="stratix logo" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				<h2 class=" z-10 text-3xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">A DESIGN THINKING AGENCY</h2>
 			</div>
 		</div>
@@ -45,28 +54,28 @@
 		<div class="pt-7 xl:px-36">
 			<div class=" grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center">
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/COKA_COLA.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="coca cola logo" src="@/../assets/images/stratix_clients/COKA_COLA.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/DIAGEO.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="diageo logo" src="@/../assets/images/stratix_clients/DIAGEO.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/SMIRNOFF.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="smirnoff logo" src="@/../assets/images/stratix_clients/SMIRNOFF.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/ALX.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="alx logo" src="@/../assets/images/stratix_clients/ALX.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/TEDx.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="ted x logo" src="@/../assets/images/stratix_clients/TEDx.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="tourism ethiopia logo" src="@/../assets/images/stratix_clients/TOURISM_ETHIOPIA.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/ALG.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="alg logo" src="@/../assets/images/stratix_clients/ALG.svg">
 				</div>
 				<div>
-					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" src="@/../assets/images/stratix_clients/KANA_TV.svg">
+					<img class="h-[96px] hover:scale-125 transition ease-in delay-100" alt="kana tv logo" src="@/../assets/images/stratix_clients/KANA_TV.svg">
 				</div>
 			</div>
 		</div>
@@ -182,6 +191,7 @@ export default {
 </script>
 
 <script setup>
+import { Head } from "@inertiajs/inertia-vue3";
 </script>
 
 <style >

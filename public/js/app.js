@@ -19522,10 +19522,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&lang=js":
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&lang=js ***!
-  \********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&setup=true&lang=js":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&setup=true&lang=js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19533,18 +19533,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"]
-});
+
+var __default__ = {
+  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"]
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (/*#__PURE__*/Object.assign(__default__, {
+  name: 'Contact',
+  setup: function setup(__props, _ref) {
+    var expose = _ref.expose;
+    expose();
+    var __returned__ = {
+      Layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"],
+      Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__.Head
+    };
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+}));
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js ***!
+  \****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19552,19 +19570,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
+
  // import VueParticles from 'vue-particles'
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"]
-});
+var __default__ = {
+  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"]
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (/*#__PURE__*/Object.assign(__default__, {
+  name: 'Home',
+  setup: function setup(__props, _ref) {
+    var expose = _ref.expose;
+    expose();
+    var __returned__ = {
+      Layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"],
+      Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__.Head
+    };
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+}));
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&lang=js":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&lang=js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Services.vue?vue&type=script&setup=true&lang=js":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Services.vue?vue&type=script&setup=true&lang=js ***!
+  \********************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19572,11 +19608,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"]
-});
+
+var __default__ = {
+  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"]
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (/*#__PURE__*/Object.assign(__default__, {
+  name: 'Services',
+  setup: function setup(__props, _ref) {
+    var expose = _ref.expose;
+    expose();
+    var __returned__ = {
+      Layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"],
+      Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__.Head
+    };
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+}));
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&setup=true&lang=js":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&setup=true&lang=js ***!
+  \*****************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/Layout */ "./resources/js/Shared/Layout.vue");
+
+
+var __default__ = {
+  layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"]
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (/*#__PURE__*/Object.assign(__default__, {
+  name: 'Works',
+  setup: function setup(__props, _ref) {
+    var expose = _ref.expose;
+    expose();
+    var __returned__ = {
+      Layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_1__["default"],
+      Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__.Head
+    };
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+}));
 
 /***/ }),
 
@@ -19765,13 +19856,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "px-6 xl:px-12"
-};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid xl:grid-cols-2 py-16 xl:py-36 xl:place-items-center xl:px-24 shadow-sm\"><div class=\"max-w-2xl py-7 xl:py-0 xl:border-r-2\"><p class=\"text-5xl xl:text-7xl font-extrabold font-roboto\">Let&#39;s create progress together.</p></div><div class=\"max-w-2xl py-7 xl:py-0 flex items-center space-x-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-7 w-7\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z\"></path></svg><p class=\"xl:text-3xl font-bold tracking-wide\">info@stratixstudio.com</p></div><!-- form --><!-- &lt;div class=&quot;py-7 xl:py-0&quot;&gt; --><!-- &lt;form class=&quot;w-full max-w-lg&quot;&gt; --><!-- &lt;div class=&quot;flex flex-wrap -mx-3 mb-6&quot;&gt; --><!-- &lt;div class=&quot;w-full md:w-1/2 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-first-name&quot;&gt;\n\t\t\t\t        First Name\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-red-500 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white&quot; id=&quot;grid-first-name&quot; type=&quot;text&quot; placeholder=&quot;Paul&quot;&gt;\n\t\t\t\t      &lt;p class=&quot;text-red-500 text-xs italic&quot;&gt;Please fill out this field.&lt;/p&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;div class=&quot;w-full md:w-1/2 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-first-name&quot;&gt;\n\t\t\t\t        First Name\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white&quot; id=&quot;grid-first-name&quot; type=&quot;text&quot; placeholder=&quot;Naz&quot;&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;div class=&quot;w-full md:w-1/2 px-3&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-last-name&quot;&gt;\n\t\t\t\t        Last Name\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-last-name&quot; type=&quot;text&quot; placeholder=&quot;Gebre&quot;&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;/div&gt; --><!-- &lt;div class=&quot;flex flex-wrap -mx-3 mb-6&quot;&gt;\n\t\t\t\t    &lt;div class=&quot;w-full md:w-1/2 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-first-name&quot;&gt;\n\t\t\t\t        Email\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white&quot; id=&quot;grid-first-name&quot; type=&quot;email&quot; placeholder=&quot;naz@gmail.com&quot;&gt;\n\t\t\t\t    &lt;/div&gt;\n\t\t\t\t    &lt;div class=&quot;w-full md:w-1/2 px-3&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-last-name&quot;&gt;\n\t\t\t\t        Phone number\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-last-name&quot; type=&quot;text&quot; placeholder=&quot;+251-922744488&quot;&gt;\n\t\t\t\t    &lt;/div&gt;\n\t\t\t\t  &lt;/div&gt; --><!-- &lt;div class=&quot;flex flex-wrap -mx-3 mb-6&quot;&gt;\n\t\t\t\t    &lt;div class=&quot;w-full md:w-full px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-city&quot;&gt;\n\t\t\t\t        Message\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;textarea class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-city&quot; type=&quot;text&quot; placeholder=&quot;your message&quot; /&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;div class=&quot;w-full md:w-1/3 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-state&quot;&gt;\n\t\t\t\t        State\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;div class=&quot;relative&quot;&gt;\n\t\t\t\t        &lt;select class=&quot;block appearance-none w-full border border-black text-gray-700 py-3 px-4 pr-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-state&quot;&gt;\n\t\t\t\t          &lt;option&gt;New Mexico&lt;/option&gt;\n\t\t\t\t          &lt;option&gt;Missouri&lt;/option&gt;\n\t\t\t\t          &lt;option&gt;Texas&lt;/option&gt;\n\t\t\t\t        &lt;/select&gt;\n\t\t\t\t        &lt;div class=&quot;pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700&quot;&gt;\n\t\t\t\t          &lt;svg class=&quot;fill-current h-4 w-4&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 20 20&quot;&gt;&lt;path d=&quot;M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z&quot;/&gt;&lt;/svg&gt;\n\t\t\t\t        &lt;/div&gt;\n\t\t\t\t      &lt;/div&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;div class=&quot;w-full md:w-1/3 px-3 mb-6 md:mb-0&quot;&gt;\n\t\t\t\t      &lt;label class=&quot;block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2&quot; for=&quot;grid-zip&quot;&gt;\n\t\t\t\t        Zip\n\t\t\t\t      &lt;/label&gt;\n\t\t\t\t      &lt;input class=&quot;appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500&quot; id=&quot;grid-zip&quot; type=&quot;text&quot; placeholder=&quot;90210&quot;&gt;\n\t\t\t\t    &lt;/div&gt; --><!-- &lt;/div&gt; --><!-- &lt;div class=&quot;flex flex-wrap mb-2&quot;&gt;\n\t\t\t\t  \t&lt;button class=&quot;bg-black text-white px-5 py-2 tracking-wider uppercase text-sm hover:scale-105 transition ease-in delay-100&quot;&gt;subscribe&lt;/button&gt;\n\t\t\t\t  &lt;/div&gt; --><!-- &lt;/form&gt; --><!-- &lt;/div&gt; --></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, "STRATIX - Contact us", -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+  name: "description",
+  content: "info@stratixstudio.com",
+  "head-key": "description"
+}, null, -1
+/* HOISTED */
+);
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "px-6 xl:px-12"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "grid xl:grid-cols-2 py-16 xl:py-36 xl:place-items-center xl:px-24 shadow-sm"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl py-7 xl:py-0 xl:border-r-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-5xl xl:text-7xl font-extrabold font-roboto"
+}, "Let's create progress together.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl py-7 xl:py-0 flex items-center space-x-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  xmlns: "http://www.w3.org/2000/svg",
+  "class": "h-7 w-7",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "stroke-width": "2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  d: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "xl:text-3xl font-bold tracking-wide"
+}, "info@stratixstudio.com")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"py-7 xl:py-0\"> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <form class=\"w-full max-w-lg\"> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap -mx-3 mb-6\"> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\">\n\t\t\t\t        First Name\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-red-500 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Paul\">\n\t\t\t\t      <p class=\"text-red-500 text-xs italic\">Please fill out this field.</p>\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\">\n\t\t\t\t        First Name\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Naz\">\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/2 px-3\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\">\n\t\t\t\t        Last Name\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"Gebre\">\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap -mx-3 mb-6\">\n\t\t\t\t    <div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\">\n\t\t\t\t        Email\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"email\" placeholder=\"naz@gmail.com\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"w-full md:w-1/2 px-3\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\">\n\t\t\t\t        Phone number\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"+251-922744488\">\n\t\t\t\t    </div>\n\t\t\t\t  </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap -mx-3 mb-6\">\n\t\t\t\t    <div class=\"w-full md:w-full px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-city\">\n\t\t\t\t        Message\n\t\t\t\t      </label>\n\t\t\t\t      <textarea class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-city\" type=\"text\" placeholder=\"your message\" />\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-state\">\n\t\t\t\t        State\n\t\t\t\t      </label>\n\t\t\t\t      <div class=\"relative\">\n\t\t\t\t        <select class=\"block appearance-none w-full border border-black text-gray-700 py-3 px-4 pr-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-state\">\n\t\t\t\t          <option>New Mexico</option>\n\t\t\t\t          <option>Missouri</option>\n\t\t\t\t          <option>Texas</option>\n\t\t\t\t        </select>\n\t\t\t\t        <div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\">\n\t\t\t\t          <svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"/></svg>\n\t\t\t\t        </div>\n\t\t\t\t      </div>\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-zip\">\n\t\t\t\t        Zip\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-zip\" type=\"text\" placeholder=\"90210\">\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap mb-2\">\n\t\t\t\t  \t<button class=\"bg-black text-white px-5 py-2 tracking-wider uppercase text-sm hover:scale-105 transition ease-in delay-100\">subscribe</button>\n\t\t\t\t  </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </form> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" map "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "shadow-2xl xl:p-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "xl:text-2xl uppercase font-bold tracking-wider"
@@ -19781,12 +19902,21 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   allowfullscreen: "",
   loading: "lazy",
   referrerpolicy: "no-referrer-when-downgrade"
-})], -1
+})])], -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" map "), _hoisted_3]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_1, _hoisted_2];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), _hoisted_3], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -19822,16 +19952,30 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _hoisted_1 = {
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, "Design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients", -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+  name: "description",
+  content: "Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning",
+  "head-key": "description"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "relative"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "h-screen flex justify-center justify-center items-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mx-auto my-auto pb-56"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100",
+  alt: "stratix logo",
   src: _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__["default"]
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "z-10 text-3xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins"
@@ -19839,16 +19983,23 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase font-poppins\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-sm xl:max-w-2xl\"><p class=\"tracking-wider text-center font-roboto\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div></div></div>", 1);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative bg-black text-white py-10\"><div class=\"flex justify-center pt-7\"><div class=\"space-y-2\"><h2 class=\"text-3xl font-bold uppercase font-poppins\">We Are STRATIX</h2><hr class=\"w-1/2 mx-auto border-2 border-white\"></div></div><div class=\"flex justify-center py-7\"><div class=\"max-w-sm xl:max-w-2xl\"><p class=\"tracking-wider text-center font-roboto\">STRATIX is a design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning, if you can imagine it, we can create it for you.</p></div></div></div>", 1);
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"xl:py-16 flex justify-center\"><div class=\"pt-7 xl:px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div></div></div></div>", 1);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"xl:py-16 flex justify-center\"><div class=\"pt-7 xl:px-36\"><div class=\"grid grid-cols-4 lg:grid-cols-8 justify-items-center items-center\"><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"coca cola logo\" src=\"" + _assets_images_stratix_clients_COKA_COLA_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"diageo logo\" src=\"" + _assets_images_stratix_clients_DIAGEO_svg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"smirnoff logo\" src=\"" + _assets_images_stratix_clients_SMIRNOFF_svg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"alx logo\" src=\"" + _assets_images_stratix_clients_ALX_svg__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"ted x logo\" src=\"" + _assets_images_stratix_clients_TEDx_svg__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"tourism ethiopia logo\" src=\"" + _assets_images_stratix_clients_TOURISM_ETHIOPIA_svg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"alg logo\" src=\"" + _assets_images_stratix_clients_ALG_svg__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div><div><img class=\"h-[96px] hover:scale-125 transition ease-in delay-100\" alt=\"kana tv logo\" src=\"" + _assets_images_stratix_clients_KANA_TV_svg__WEBPACK_IMPORTED_MODULE_9__["default"] + "\"></div></div></div></div>", 1);
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-12\"><div class=\"pb-12 flex justify-center\"><div class=\"max-w-3xl\"><h2 class=\"text-center text-gray-700 xl:text-2xl font-bold uppercase tracking-wider font-poppins\">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2></div></div><div class=\"grid xl:grid-cols-2 gap-2 xl:gap-8 shadow-xl xl:p-8 bg-gray-50\"><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">social media strategy</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">brand identity</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer. <br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">research &amp; insight</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">marketing video production</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div></div></div></div>", 1);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-12\"><div class=\"pb-12 flex justify-center\"><div class=\"max-w-3xl\"><h2 class=\"text-center text-gray-700 xl:text-2xl font-bold uppercase tracking-wider font-poppins\">CREATING WINNING SOLUTIONS WITH THE RELENTLESS PURSUIT OF INNOVATION.</h2></div></div><div class=\"grid xl:grid-cols-2 gap-2 xl:gap-8 shadow-xl xl:p-8 bg-gray-50\"><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">social media strategy</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">brand identity</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer. <br> In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design – sonic and visual – is not a “nice to have.” It’s essential to building modern, growth-driven brands.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">research &amp; insight</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage. Working with STRATIX will give you insights into evolving trends, media consumption habits, brands and market share insights.</p></div></div><div class=\"p-7 shadow bg-white\"><div class=\"p-4 space-y-4 hover:scale-105 transition ease-in delay-100\"><p class=\"uppercase tracking-wider font-bold font-poppins\">marketing video production</p><hr class=\"w-1/6 border-black\"><p class=\"p-4 text-sm tracking-wide text-gray-500 leading-6 font-roboto\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_vue_particles = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vue-particles");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vue_particles, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_1, _hoisted_2];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vue_particles, {
     "class": "absolute inset-0 -mt-10",
     color: "#44403c",
     particleOpacity: 0.7,
@@ -19867,7 +20018,50 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     clickMode: "push"
   }, null, 8
   /* PROPS */
-  , ["particleOpacity", "lineOpacity"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" who we are ? "), _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" partners "), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" what we do "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" testimonials sction "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"py-7 px-6 xl:px-12\">\n\t\t<div class=\"space-y-4\">\n\t\t\t\n\t\t\t<div class=\"grid grid-cols-6 gap-4 place-items-center content-center\">\n\t\t\t\t<div class=\"xl:col-span-3 bg-black h-full xl:row-span-2 col-span-6 flex items-center\">\n\t\t\t\t\t<img class=\"hover:scale-105 transition ease-in delay-100\" src=\"@/../assets/images/others/multi_ethnic_diverse_businesspeople_working_in_bus_2022_02_14_15.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"xl:col-span-3 col-span-6 shadow xl:flex items-center text-black border border-black\">\n\t\t\t\t\t<div class=\"p-4\">\n\t\t\t\t\t\t<svg class=\"h-12 mb-3 text-gray-400 dark:text-gray-600\" viewBox=\"0 0 24 27\" fill=\"none\" \txmlns=\"http://www.w3.org/2000/svg\">\n\t\t              \t\t<path d=\"M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z\" fill=\"currentColor\"/>\n\t\t          \t\t</svg>\n\t\t          \t\t<h1 class=\"text-lg xl:text-2xl font-bold font-poppins\">Speed and quality of creative was just wow</h1>\n\t\t          \t\t<div class=\"p-4 ml-2\">\n\t\t          \t\t\t<p class=\"border-l-[1px] border-black p-4 max-w-3xl font-roboto text-gray-700 tracking-wide\">I have engaged STRATIX on various projects ranging from tourism to land and property campaigns. If i were to sum their work in a few words, I would say - speed, responsiveness and outstanding creative work.</p>\n\n\t\t          \t\t\t<div class=\"text-sm text-center py-8 space-x-2 font-bold font-roboto tracking-wide\">\n\t\t          \t\t\t\t<div class=\"flex justify-center items-center space-x-2\">\n\t\t          \t\t\t\t\t<p>Lensa Mekonen</p>\n\t\t          \t\t\t\t\t<hr class=\"w-[2px] h-6 border border-gray-400\">\n\t\t          \t\t\t\t\t<p>CEO LBDC</p>\n\t\t          \t\t\t\t</div>\n\t\t          \t\t\t</div>\n\t\t          \t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"xl:col-span-3 col-span-6 shadow-2xl xl:flex items-center text-black border border-black\">\n\t\t\t\t\t<div class=\"p-4\">\n\t\t\t\t\t\t<svg class=\"h-12 mb-3 text-gray-400 dark:text-gray-600\" viewBox=\"0 0 24 27\" fill=\"none\" \txmlns=\"http://www.w3.org/2000/svg\">\n\t\t              \t\t<path d=\"M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z\" fill=\"currentColor\"/>\n\t\t          \t\t</svg>\n\t\t          \t\t<h1 class=\"text-lg xl:text-2xl font-bold font-poppins\">Ultimate problem solvers</h1>\n\t\t          \t\t<div class=\"p-4 ml-2\">\n\t\t          \t\t\t<p class=\"border-l-[1px] border-black p-4 max-w-3xl font-roboto text-gray-700 tracking-wide\">STRATIX are like mad scientists curious to tackle any problem you throw at them. They have crafted solutions for the AL Group that surpassed any KPI given to them.  From end to end digital marketing, programmatic advertising, call center support, research and creative, STRATIX is an exceptional agency that accelerates your results.</p>\n\n\t\t          \t\t\t<div class=\"text-sm text-center py-8 space-x-2 font-bold font-roboto tracking-wide\">\n\t\t          \t\t\t\t<div class=\"flex justify-center items-center space-x-2\">\n\t\t          \t\t\t\t\t<p>Mirafe G Marcos</p>\n\t\t          \t\t\t\t\t<hr class=\"w-[2px] h-6 border border-gray-400\">\n\t\t          \t\t\t\t\t<p>Country Director - African Leadership Group</p>\n\t\t          \t\t\t\t</div>\n\t\t          \t\t\t</div>\n\t\t          \t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\n\t\t</div>\n\t</div> ")], 64
+  , ["particleOpacity", "lineOpacity"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" who we are ? "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" partners "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" what we do "), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" testimonials sction "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"py-7 px-6 xl:px-12\">\n\t\t<div class=\"space-y-4\">\n\t\t\t\n\t\t\t<div class=\"grid grid-cols-6 gap-4 place-items-center content-center\">\n\t\t\t\t<div class=\"xl:col-span-3 bg-black h-full xl:row-span-2 col-span-6 flex items-center\">\n\t\t\t\t\t<img class=\"hover:scale-105 transition ease-in delay-100\" src=\"@/../assets/images/others/multi_ethnic_diverse_businesspeople_working_in_bus_2022_02_14_15.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"xl:col-span-3 col-span-6 shadow xl:flex items-center text-black border border-black\">\n\t\t\t\t\t<div class=\"p-4\">\n\t\t\t\t\t\t<svg class=\"h-12 mb-3 text-gray-400 dark:text-gray-600\" viewBox=\"0 0 24 27\" fill=\"none\" \txmlns=\"http://www.w3.org/2000/svg\">\n\t\t              \t\t<path d=\"M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z\" fill=\"currentColor\"/>\n\t\t          \t\t</svg>\n\t\t          \t\t<h1 class=\"text-lg xl:text-2xl font-bold font-poppins\">Speed and quality of creative was just wow</h1>\n\t\t          \t\t<div class=\"p-4 ml-2\">\n\t\t          \t\t\t<p class=\"border-l-[1px] border-black p-4 max-w-3xl font-roboto text-gray-700 tracking-wide\">I have engaged STRATIX on various projects ranging from tourism to land and property campaigns. If i were to sum their work in a few words, I would say - speed, responsiveness and outstanding creative work.</p>\n\n\t\t          \t\t\t<div class=\"text-sm text-center py-8 space-x-2 font-bold font-roboto tracking-wide\">\n\t\t          \t\t\t\t<div class=\"flex justify-center items-center space-x-2\">\n\t\t          \t\t\t\t\t<p>Lensa Mekonen</p>\n\t\t          \t\t\t\t\t<hr class=\"w-[2px] h-6 border border-gray-400\">\n\t\t          \t\t\t\t\t<p>CEO LBDC</p>\n\t\t          \t\t\t\t</div>\n\t\t          \t\t\t</div>\n\t\t          \t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"xl:col-span-3 col-span-6 shadow-2xl xl:flex items-center text-black border border-black\">\n\t\t\t\t\t<div class=\"p-4\">\n\t\t\t\t\t\t<svg class=\"h-12 mb-3 text-gray-400 dark:text-gray-600\" viewBox=\"0 0 24 27\" fill=\"none\" \txmlns=\"http://www.w3.org/2000/svg\">\n\t\t              \t\t<path d=\"M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z\" fill=\"currentColor\"/>\n\t\t          \t\t</svg>\n\t\t          \t\t<h1 class=\"text-lg xl:text-2xl font-bold font-poppins\">Ultimate problem solvers</h1>\n\t\t          \t\t<div class=\"p-4 ml-2\">\n\t\t          \t\t\t<p class=\"border-l-[1px] border-black p-4 max-w-3xl font-roboto text-gray-700 tracking-wide\">STRATIX are like mad scientists curious to tackle any problem you throw at them. They have crafted solutions for the AL Group that surpassed any KPI given to them.  From end to end digital marketing, programmatic advertising, call center support, research and creative, STRATIX is an exceptional agency that accelerates your results.</p>\n\n\t\t          \t\t\t<div class=\"text-sm text-center py-8 space-x-2 font-bold font-roboto tracking-wide\">\n\t\t          \t\t\t\t<div class=\"flex justify-center items-center space-x-2\">\n\t\t          \t\t\t\t\t<p>Mirafe G Marcos</p>\n\t\t          \t\t\t\t\t<hr class=\"w-[2px] h-6 border border-gray-400\">\n\t\t          \t\t\t\t\t<p>Country Director - African Leadership Group</p>\n\t\t          \t\t\t\t</div>\n\t\t          \t\t\t</div>\n\t\t          \t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\n\t\t</div>\n\t</div> ")], 64
+  /* STABLE_FRAGMENT */
+  );
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Services.vue?vue&type=template&id=20597807":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Services.vue?vue&type=template&id=20597807 ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, "STRATIX - BRAND PURPOSE, IDENTITY & MORE", -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+  name: "description",
+  content: "BRAND PURPOSE, IDENTITY & INSIGHTS | DIGITAL STRATEGY | SOCIAL MEDIA STRATEGY | MARKETING VIDEO PRODUCTION",
+  "head-key": "description"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-16 xl:py-20\"><div class=\"py-12\"><h2 class=\"text-center font-bold text-5xl uppercase font-poppins tracking-wide\">what we do</h2><hr class=\"w-1/6 mx-auto mt-7 border-black\"></div><!-- BRAND PURPOSE, IDENTITY &amp; INSIGHTS --><div class=\"xl:flex xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">BRAND PURPOSE, IDENTITY &amp; INSIGHTS</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:p-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> BRAND PURPOSE</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">The North Star for how, where and why the brand shows up To help define brand purpose, we start by interrogating the brand&#39;s past, understanding its present and anticipating its future. Once the brand purpose is defined, the team is able to make better decisions more quickly and with more confidence. A strong brand purpose is the first step toward building brand value over time.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> DEFINITIVE DESIGN</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Harnessing the branding power of distinctive design assets In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design - sonic and visual - is not a &quot;nice to have.&quot; It&#39;s essential to building modern, growth-driven brands.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> PEOPLE &amp; PATTERNS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Humanize the data by We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p></div></div></div><!-- DIGITAL STRATEGY --><div class=\"xl:flex xl:py-6 flex-row-reverse\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">DIGITAL STRATEGY</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:py-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-2 flex row-span-2 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 my-auto border-l-4 border-black xl:text-justify p-4\">In a landscape that’s growing increasingly complex, we’re able to help brands cut through the noise and have their digital presence stand out in a super competitive ecosystem. From strategic positioning to superlative performance, the right digital strategy is your North Star when it comes to achieving your goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> YOUR ULTIMATE DIGITAL STRATEGY PARTNER</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Being a full partner in your digital march to success, we approach your unique marketing needs from a completely fresh perspective. We take an agnostic approach and perform deep dives into all facets of the category to determine the ideal strategic approach based on your budget and goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> ANY PROJECT – NO MATTER HOW AMBITIOUS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">No project is too big, in fact we encourage clients to dream big and then make sure they have the digital strategy in place to execute on this. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, digital strategy. From complete brand launches to smaller new features with repositioning, there’s nothing we can’t handle. If you can imagine it, we can create it for you.</p></div></div></div><!-- SOCIAL MEDIA STRATEGY --><div class=\"xl:flex xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">SOCIAL MEDIA STRATEGY</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:p-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> SOCIAL CONTENT THAT GETS USERS EXCITED</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Success on social media starts with having the right strategy in place. This strategy is driven by numerous factors, including your product, goals, budgets, trends, target audience, and more. Creating a winning social media content strategy gives you a clear and actionable path to over-achieve your growth goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> OUTSHINE COMPETITORS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Working with the STRATIX team, you’ll get a deep and comprehensive view of what your competitors are doing in terms of both organic and paid social media activity, including what’s working for them and what isn’t – and then incorporating these learnings into your own social strategy.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> ULTIMATE ORGANIC &amp; PAID SOCIAL STRATEGY</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Humanize the data by We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p></div></div></div><!-- MARKETING VIDEO PRODUCTION --><div class=\"xl:flex flex-row-reverse xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><div class=\"py-4 mx-auto text-center space-y-4\"><p class=\"text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">MARKETING VIDEO PRODUCTION</p><p class=\"uppercase text-xs xl:text-sm font-light tracking-wider\">INSPIRE, INFLUENCE, EXCITE AND IMPRESS</p></div><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:py-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">A marketing video has the power to boost conversion rates by 80%, and it’s no surprise that 92% of marketers say that video is a critical part of their overall marketing strategy. Today, people don’t want to read lengthy articles or search for explanations – they just want to press play, and see everything they need in one, awesome place. At STRATIX, we offer a wide range of video production options for marketing; all planned and produced in-house.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> TV COMMERCIALS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> AMAZING CORPORATE VIDEOS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Put your best foot forward with a corporate video that’s an inspiring portrait of who your company really is. An effective corporate video allows people to connect to your brand, vision, and mission; while giving a personal touch with a lasting impact.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> POWERFUL PERSONAL BRANDING / LIVE ACTION</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">There are few more authoritative pieces of content than authentic video stories told by real people. Social proof is the greatest influencer, and personal branding videos empower you to show off the incredible person behind the camera.</p></div></div></div></div>", 1);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_1, _hoisted_2];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), _hoisted_3], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -19903,15 +20097,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _hoisted_1 = {
-  "class": "space-y-20 px-6 xl:px-12 py-36"
-};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><h2 class=\"text-5xl mx-auto uppercase max-w-4xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins\">If you can imagine it, we can create it for you.</h2><hr class=\"w-1/6 mx-auto mt-7 border-black\"></div><div class=\"\"><!-- Al Group --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_49_jpg__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"><img class=\"col-span-1 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_57_jpg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"><img class=\"col-span-1 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_53_jpg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"><img class=\"col-span-1 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_55_jpg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">al group</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">Anchored in its unique and effective leadership development curriculum and a global network, the AL Group has been successfully producing and placing globally competitive African talent at a speed, scale and quality never before seen. Using an experiential, technology-enabled, peer-to-peer learning model, the AL Group has been equipping and harnessing the potential of the young African workforce to meaningfully engage with — and contribute to — African economies as leaders and innovators.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Local Marketing Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Copywriting</span><span class=\"text-xs p-2 border border-black text-gray-500\">Graphic Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Web Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Social Media Marketing</span><span class=\"text-xs p-2 border border-black text-gray-500\">Digital Advertising</span><span class=\"text-xs p-2 border border-black text-gray-500\">Search Engine Optimization (SEO)</span><span class=\"text-xs p-2 border border-black text-gray-500\">Google Display Networks (GDN)</span><span class=\"text-xs p-2 border border-black text-gray-500\">Call Center Support</span><span class=\"text-xs p-2 border border-black text-gray-500\">Research &amp; BI</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Kana TV --><div class=\"xl:flex flex-row-reverse justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_KANA_Picture8_png__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">kana tv</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">With a vision to be the nation’s leading entertainment television channel, Kana TV founders needed an unrivalled market entry strategy coupled with a unique brand identity to take Ethiopia by a storm. Tasked with this mission, STRATIX took a design thinking mindset to successfully launch Ethiopia’s most loved TV station. Six years later, Kana’s brand and campaigns remain etched in the minds of viewers across the country.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Media Landscape Research &amp; BI</span><span class=\"text-xs p-2 border border-black text-gray-500\">Business Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Content Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Identity Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Launch &amp; Activation</span><span class=\"text-xs p-2 border border-black text-gray-500\">Digital Media Strategy</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Ethiopian tourism board --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_ETB_Picture9_png__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">ETHIOPIAN TOURISM BOARD</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">When one thinks of Ethiopian tourism campaigns, the words 13 MONTHS OF SUNSHINE echo a long held belief that Ethiopia has 13 months of sunshine. The Ethiopian tourism board wanted Ethiopia to be known for much more than that. So we were tasked to design a new tourism brand strategy to differentiate Ethiopia from competitors including a proposed visual brand identity concept and message, a brand manual that includes the visual brand identity, communication messages and suggested applications as recommended procedures for legal registration and copywriting of the brand.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Creative Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Architecture</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Expression</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Identity</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Identity Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Marketing Collateral Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Website Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Consumer Insights</span><span class=\"text-xs p-2 border border-black text-gray-500\">Copywriting</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Diageo - Malta Guinness --><div class=\"xl:flex flex-row-reverse justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_GUINNESS_photo_2022_08_14_12_33_40_jpg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">DIAGEO – MALTA GUINNESS</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">After Diageo acquired Meta Abo Brewery in 2010, it was eager to expand its portfolio and enter the soft drink category. With that in mind, Malta Guinness: a non-alcoholic malt beverage was to be introduced for the first time to Ethiopia. </p><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\"> Diageo wanted an integrated ATL and BTL marketing campaign to increase brand awareness; covering various part of the city where target consumers frequent. Radio ads along with vibrant wall brandings were requested to reinforce the BTL campaign. For the BTL campaign, Diageo wanted to have sampling promotions to drive across the functional benefits of the product. </p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Creative Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Campaign Identity</span><span class=\"text-xs p-2 border border-black text-gray-500\">Marketing Collateral Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Regional Activations</span><span class=\"text-xs p-2 border border-black text-gray-500\">Consumer Insights</span><span class=\"text-xs p-2 border border-black text-gray-500\">Copywriting</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Diageo - Smirnoff --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" src=\"" + _assets_images_SMIRNOFF_Picture10_png__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">DIAGEO – SMIRNOFF</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">With rival Vodka brands aggressively cutting into Smirnoff’s share of the market, Diageo was keen to regain the high ground and position Smirnoff as the beverage of choice for young adults at bars and entertainment outlets. </p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Creative Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Campaign Identity</span><span class=\"text-xs p-2 border border-black text-gray-500\">Marketing Collateral Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">City Activations</span><span class=\"text-xs p-2 border border-black text-gray-500\">Consumer Insights</span><span class=\"text-xs p-2 border border-black text-gray-500\">Bar Tender Training</span><span class=\"text-xs p-2 border border-black text-gray-500\">Logistics Planning</span><span class=\"text-xs p-2 border border-black text-gray-500\">Digital Engagment</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div></div>", 2);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, "STRATIX - Works", -1
+/* HOISTED */
+);
 
-var _hoisted_4 = [_hoisted_2];
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+  name: "description",
+  content: "If you can imagine it we can create it for you",
+  "head-key": "description"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"space-y-20 px-6 xl:px-12 py-36\"><div class=\"\"><h2 class=\"text-5xl mx-auto uppercase max-w-4xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins\">If you can imagine it, we can create it for you.</h2><hr class=\"w-1/6 mx-auto mt-7 border-black\"></div><div class=\"\"><!-- Al Group --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" alt=\"al group works image 1\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_49_jpg__WEBPACK_IMPORTED_MODULE_1__["default"] + "\"><img class=\"col-span-1 hover:scale-105 transition ease-in delay-100\" alt=\"al group works image 2\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_57_jpg__WEBPACK_IMPORTED_MODULE_2__["default"] + "\"><img class=\"col-span-1 hover:scale-105 transition ease-in delay-100\" alt=\"al group works image 3\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_53_jpg__WEBPACK_IMPORTED_MODULE_3__["default"] + "\"><img class=\"col-span-1 hover:scale-105 transition ease-in delay-100\" alt=\"al group works image 4\" src=\"" + _assets_images_AL_GROUP_photo_2022_08_13_23_17_55_jpg__WEBPACK_IMPORTED_MODULE_4__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">al group</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">Anchored in its unique and effective leadership development curriculum and a global network, the AL Group has been successfully producing and placing globally competitive African talent at a speed, scale and quality never before seen. Using an experiential, technology-enabled, peer-to-peer learning model, the AL Group has been equipping and harnessing the potential of the young African workforce to meaningfully engage with — and contribute to — African economies as leaders and innovators.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Local Marketing Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Copywriting</span><span class=\"text-xs p-2 border border-black text-gray-500\">Graphic Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Web Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Social Media Marketing</span><span class=\"text-xs p-2 border border-black text-gray-500\">Digital Advertising</span><span class=\"text-xs p-2 border border-black text-gray-500\">Search Engine Optimization (SEO)</span><span class=\"text-xs p-2 border border-black text-gray-500\">Google Display Networks (GDN)</span><span class=\"text-xs p-2 border border-black text-gray-500\">Call Center Support</span><span class=\"text-xs p-2 border border-black text-gray-500\">Research &amp; BI</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Kana TV --><div class=\"xl:flex flex-row-reverse justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" alt=\"kana works image\" src=\"" + _assets_images_KANA_Picture8_png__WEBPACK_IMPORTED_MODULE_5__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">kana tv</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">With a vision to be the nation’s leading entertainment television channel, Kana TV founders needed an unrivalled market entry strategy coupled with a unique brand identity to take Ethiopia by a storm. Tasked with this mission, STRATIX took a design thinking mindset to successfully launch Ethiopia’s most loved TV station. Six years later, Kana’s brand and campaigns remain etched in the minds of viewers across the country.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Media Landscape Research &amp; BI</span><span class=\"text-xs p-2 border border-black text-gray-500\">Business Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Content Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Identity Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Launch &amp; Activation</span><span class=\"text-xs p-2 border border-black text-gray-500\">Digital Media Strategy</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Ethiopian tourism board --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" alt=\"ethiopia tourism works image\" src=\"" + _assets_images_ETB_Picture9_png__WEBPACK_IMPORTED_MODULE_6__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">ETHIOPIAN TOURISM BOARD</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">When one thinks of Ethiopian tourism campaigns, the words 13 MONTHS OF SUNSHINE echo a long held belief that Ethiopia has 13 months of sunshine. The Ethiopian tourism board wanted Ethiopia to be known for much more than that. So we were tasked to design a new tourism brand strategy to differentiate Ethiopia from competitors including a proposed visual brand identity concept and message, a brand manual that includes the visual brand identity, communication messages and suggested applications as recommended procedures for legal registration and copywriting of the brand.</p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Creative Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Architecture</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Expression</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Identity</span><span class=\"text-xs p-2 border border-black text-gray-500\">Brand Identity Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Marketing Collateral Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Website Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Consumer Insights</span><span class=\"text-xs p-2 border border-black text-gray-500\">Copywriting</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Diageo - Malta Guinness --><div class=\"xl:flex flex-row-reverse justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" alt=\"malta guinness works image\" src=\"" + _assets_images_GUINNESS_photo_2022_08_14_12_33_40_jpg__WEBPACK_IMPORTED_MODULE_7__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black items-center shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">DIAGEO – MALTA GUINNESS</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">After Diageo acquired Meta Abo Brewery in 2010, it was eager to expand its portfolio and enter the soft drink category. With that in mind, Malta Guinness: a non-alcoholic malt beverage was to be introduced for the first time to Ethiopia. </p><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\"> Diageo wanted an integrated ATL and BTL marketing campaign to increase brand awareness; covering various part of the city where target consumers frequent. Radio ads along with vibrant wall brandings were requested to reinforce the BTL campaign. For the BTL campaign, Diageo wanted to have sampling promotions to drive across the functional benefits of the product. </p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Creative Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Campaign Identity</span><span class=\"text-xs p-2 border border-black text-gray-500\">Marketing Collateral Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">Regional Activations</span><span class=\"text-xs p-2 border border-black text-gray-500\">Consumer Insights</span><span class=\"text-xs p-2 border border-black text-gray-500\">Copywriting</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div><!-- Diageo - Smirnoff --><div class=\"xl:flex justify-around bg-black\"><div class=\"xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl\"><div class=\"grid grid-cols-3 xl:gap-2\"><img class=\"col-span-3 hover:scale-105 transition ease-in delay-100\" alt=\"smirnoff works image\" src=\"" + _assets_images_SMIRNOFF_Picture10_png__WEBPACK_IMPORTED_MODULE_8__["default"] + "\"></div></div><div class=\"xl:w-1/2 bg-black flex flex-row-reverse justify-center text-black shadow-2xl\"><div class=\"xl:w-1/2 space-y-4 bg-white p-9 shadow-2xl\"><p class=\"uppercase text-2xl font-bold font-poppins text-black\">DIAGEO – SMIRNOFF</p><hr class=\"w-1/12 border-2 border-black\"><p class=\"max-w-2xl font-roboto text-gray-700 text-sm tracking-wider\">With rival Vodka brands aggressively cutting into Smirnoff’s share of the market, Diageo was keen to regain the high ground and position Smirnoff as the beverage of choice for young adults at bars and entertainment outlets. </p><div class=\"grid grid-cols-2 gap-1 tracking-wide font-poppins\"><span class=\"text-xs p-2 border border-black text-gray-500\">Creative Strategy</span><span class=\"text-xs p-2 border border-black text-gray-500\">Campaign Identity</span><span class=\"text-xs p-2 border border-black text-gray-500\">Marketing Collateral Design</span><span class=\"text-xs p-2 border border-black text-gray-500\">City Activations</span><span class=\"text-xs p-2 border border-black text-gray-500\">Consumer Insights</span><span class=\"text-xs p-2 border border-black text-gray-500\">Bar Tender Training</span><span class=\"text-xs p-2 border border-black text-gray-500\">Logistics Planning</span><span class=\"text-xs p-2 border border-black text-gray-500\">Digital Engagment</span></div><!-- &lt;div class=&quot;float-right py-4&quot;&gt;\n\t\t\t\t\t\t\t&lt;button class=&quot;border items-center flex space-x-2 text-xs py-2 px-4 border-white bg-black text-white hover:scale-90 transition ease-in delay-100&quot;&gt;\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t&lt;span&gt;\n\t\t\t\t\t\t\t\t\t\tRead More\n\t\t\t\t\t\t\t\t&lt;/span&gt;\n\t\t\t\t\t\t\t\t&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-6 w-6 text-white&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;&gt;\n\t  \t\t\t\t\t\t\t\t&lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M17 8l4 4m0 0l-4 4m4-4H3&quot; /&gt;\n\t\t\t\t\t\t\t\t&lt;/svg&gt;\n\t\t\t\t\t\t&lt;/button&gt;\n\t\t\t\t\t\t&lt;/div&gt; --></div></div></div></div></div>", 1);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_1, _hoisted_2];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), _hoisted_3], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -19936,13 +20147,14 @@ var _hoisted_1 = {
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "hidden xl:block tracking-wider text-sm font-bold text-gray-400"
+  "class": "hidden xl:block tracking-wider text-sm font-bold text-gray-700"
 }, "A DESIGN THINKING AGENCY", -1
 /* HOISTED */
 );
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "xl:-mt-5 h-32 xl:h-56 hover:scale-125 transition ease-in delay-100",
+  alt: "stratix logo",
   src: _assets_images_stratix_logo_STRATIX_LOGO_BLACK_ON_WHITE_svg__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, null, -1
 /* HOISTED */
@@ -20069,10 +20281,12 @@ var _hoisted_1 = {
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Works");
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Services");
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
     href: "/works",
     active: _ctx.$page.component === 'Works',
     "class": "hover:text-black font-semibold text-gray-500"
@@ -20085,9 +20299,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <NavLink href=\"/about\" :active=\"$page.component === 'About'\" class=\"hover:text-black font-semibold text-gray-500\">About</NavLink> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
-    href: "/contact",
-    active: _ctx.$page.component === 'Contact',
+  , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+    href: "/services",
+    active: _ctx.$page.component === 'Services',
     "class": "hover:text-black font-semibold text-gray-500"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -20098,7 +20312,20 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["active"])])]);
+  , ["active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <NavLink href=\"/about\" :active=\"$page.component === 'About'\" class=\"hover:text-black font-semibold text-gray-500\">About</NavLink> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NavLink"], {
+    href: "/contact",
+    active: _ctx.$page.component === 'Contact',
+    "class": "hover:text-black font-semibold text-gray-500"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["active"])])])]);
 }
 
 /***/ }),
@@ -29359,14 +29586,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Contact_vue_vue_type_template_id_2c2b26f2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contact.vue?vue&type=template&id=2c2b26f2 */ "./resources/js/Pages/Contact.vue?vue&type=template&id=2c2b26f2");
-/* harmony import */ var _Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.vue?vue&type=script&lang=js */ "./resources/js/Pages/Contact.vue?vue&type=script&lang=js");
+/* harmony import */ var _Contact_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Pages/Contact.vue?vue&type=script&setup=true&lang=js");
 /* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Contact_vue_vue_type_template_id_2c2b26f2__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Contact.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Contact_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Contact_vue_vue_type_template_id_2c2b26f2__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Contact.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -29387,7 +29614,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=6a63e488 */ "./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
-/* harmony import */ var _Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js */ "./resources/js/Pages/Home.vue?vue&type=script&lang=js");
+/* harmony import */ var _Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js");
 /* harmony import */ var _Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=6a63e488&lang=css */ "./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css");
 /* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
@@ -29397,7 +29624,35 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Services.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/Pages/Services.vue ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Services_vue_vue_type_template_id_20597807__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services.vue?vue&type=template&id=20597807 */ "./resources/js/Pages/Services.vue?vue&type=template&id=20597807");
+/* harmony import */ var _Services_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Pages/Services.vue?vue&type=script&setup=true&lang=js");
+/* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Services_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Services_vue_vue_type_template_id_20597807__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Services.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -29418,14 +29673,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Works.vue?vue&type=template&id=aef9eaae */ "./resources/js/Pages/Works.vue?vue&type=template&id=aef9eaae");
-/* harmony import */ var _Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Works.vue?vue&type=script&lang=js */ "./resources/js/Pages/Works.vue?vue&type=script&lang=js");
+/* harmony import */ var _Works_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Works.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Pages/Works.vue?vue&type=script&setup=true&lang=js");
 /* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Works.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Works_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Works_vue_vue_type_template_id_aef9eaae__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Works.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -29534,50 +29789,66 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Contact.vue?vue&type=script&lang=js":
-/*!****************************************************************!*\
-  !*** ./resources/js/Pages/Contact.vue?vue&type=script&lang=js ***!
-  \****************************************************************/
+/***/ "./resources/js/Pages/Contact.vue?vue&type=script&setup=true&lang=js":
+/*!***************************************************************************!*\
+  !*** ./resources/js/Pages/Contact.vue?vue&type=script&setup=true&lang=js ***!
+  \***************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Contact_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Contact.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Contact_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Contact.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Contact.vue?vue&type=script&setup=true&lang=js");
  
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Home.vue?vue&type=script&lang=js":
-/*!*************************************************************!*\
-  !*** ./resources/js/Pages/Home.vue?vue&type=script&lang=js ***!
-  \*************************************************************/
+/***/ "./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js":
+/*!************************************************************************!*\
+  !*** ./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js ***!
+  \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js");
  
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Works.vue?vue&type=script&lang=js":
-/*!**************************************************************!*\
-  !*** ./resources/js/Pages/Works.vue?vue&type=script&lang=js ***!
-  \**************************************************************/
+/***/ "./resources/js/Pages/Services.vue?vue&type=script&setup=true&lang=js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/Pages/Services.vue?vue&type=script&setup=true&lang=js ***!
+  \****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Services_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Works.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Services_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Services.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Services.vue?vue&type=script&setup=true&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Works.vue?vue&type=script&setup=true&lang=js":
+/*!*************************************************************************!*\
+  !*** ./resources/js/Pages/Works.vue?vue&type=script&setup=true&lang=js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Works_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Works.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Works.vue?vue&type=script&setup=true&lang=js");
  
 
 /***/ }),
@@ -29674,6 +29945,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=template&id=6a63e488 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Services.vue?vue&type=template&id=20597807":
+/*!***********************************************************************!*\
+  !*** ./resources/js/Pages/Services.vue?vue&type=template&id=20597807 ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Services_vue_vue_type_template_id_20597807__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Services_vue_vue_type_template_id_20597807__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Services.vue?vue&type=template&id=20597807 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Services.vue?vue&type=template&id=20597807");
 
 
 /***/ }),
@@ -30098,6 +30385,8 @@ var map = {
 	"./Contact.vue": "./resources/js/Pages/Contact.vue",
 	"./Home": "./resources/js/Pages/Home.vue",
 	"./Home.vue": "./resources/js/Pages/Home.vue",
+	"./Services": "./resources/js/Pages/Services.vue",
+	"./Services.vue": "./resources/js/Pages/Services.vue",
 	"./Works": "./resources/js/Pages/Works.vue",
 	"./Works.vue": "./resources/js/Pages/Works.vue"
 };
