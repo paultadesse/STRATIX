@@ -1,4 +1,12 @@
 <template>
+	<Head>
+		<title>STRATIX - Contact us</title>
+		<meta 
+			name="description"
+			content="info@stratixstudio.com"
+			head-key="description"
+		>
+	</Head>
 	<div class="px-6 xl:px-12">
 		<div class="grid xl:grid-cols-2 py-16 xl:py-36 xl:place-items-center  xl:px-24 shadow-sm">
 			<div class="max-w-2xl py-7 xl:py-0 xl:border-r-2">
@@ -99,6 +107,7 @@ export default {
 </script>
 
 <script setup>
+import { Head } from "@inertiajs/inertia-vue3";
 </script>
 
 <style lang="css" scoped>

@@ -1,4 +1,12 @@
 <template>
+	<Head>
+		<title>STRATIX - Works</title>
+		<meta 
+			name="description"
+			content="If you can imagine it we can create it for you"
+			head-key="description"
+		>
+	</Head>
 	<div class="space-y-20 px-6 xl:px-12 py-36">
 		<div class="">
 			<h2 class="text-5xl mx-auto uppercase max-w-4xl text-center font-bold tracking-wide hover:scale-105 transition ease-in delay-100 font-poppins">If you can imagine it, we can create it for you.</h2>
@@ -10,10 +18,10 @@
 			<div class="xl:flex justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-49.jpg">
-						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-57.jpg">
-						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-53.jpg">
-						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-55.jpg">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" alt="al group works image 1" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-49.jpg">
+						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" alt="al group works image 2" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-57.jpg">
+						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" alt="al group works image 3" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-53.jpg">
+						<img class="col-span-1 hover:scale-105 transition ease-in delay-100" alt="al group works image 4" src="@/../assets/images/AL_GROUP/photo_2022-08-13_23-17-55.jpg">
 					</div>
 				</div>
 
@@ -59,7 +67,7 @@
 			<div class="xl:flex flex-row-reverse justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/KANA/Picture8.png">
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" alt="kana works image" src="@/../assets/images/KANA/Picture8.png">
 					</div>
 				</div>
 
@@ -98,7 +106,7 @@
 			<div class="xl:flex justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/ETB/Picture9.png">					
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" alt="ethiopia tourism works image" src="@/../assets/images/ETB/Picture9.png">					
 					</div>
 				</div>
 
@@ -144,7 +152,7 @@
 			<div class="xl:flex flex-row-reverse justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/GUINNESS/photo_2022-08-14_12-33-40.jpg">					
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" alt="malta guinness works image" src="@/../assets/images/GUINNESS/photo_2022-08-14_12-33-40.jpg">					
 					</div>
 				</div>
 
@@ -190,7 +198,7 @@
 			<div class="xl:flex justify-around bg-black">
 				<div class="xl:w-1/2 flex justify-center space-y-4 text-white xl:p-9 shadow-2xl">
 					<div class="grid grid-cols-3 xl:gap-2">
-						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" src="@/../assets/images/SMIRNOFF/Picture10.png">					
+						<img class="col-span-3 hover:scale-105 transition ease-in delay-100" alt="smirnoff works image" src="@/../assets/images/SMIRNOFF/Picture10.png">					
 					</div>
 				</div>
 
@@ -241,6 +249,7 @@ export default {
 </script>
 
 <script setup>
+import { Head } from "@inertiajs/inertia-vue3";
 </script>
 
 <style lang="css" scoped>

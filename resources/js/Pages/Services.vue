@@ -1,4 +1,12 @@
 <template>
+	<Head>
+		<title>STRATIX - BRAND PURPOSE, IDENTITY & MORE</title>
+		<meta 
+			name="description"
+			content="BRAND PURPOSE, IDENTITY & INSIGHTS | DIGITAL STRATEGY | SOCIAL MEDIA STRATEGY | MARKETING VIDEO PRODUCTION"
+			head-key="description"
+		>
+	</Head>
 	<div class="px-6 xl:px-12 py-16 xl:py-20">
 		<div class="py-12">
 			<h2 class="text-center font-bold text-5xl uppercase font-poppins tracking-wide">what we do</h2>
@@ -174,6 +182,7 @@ export default {
 </script>
 
 <script setup>
+import { Head } from "@inertiajs/inertia-vue3";
 </script>
 
 <style lang="css" scoped>
