@@ -19890,7 +19890,8 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   d: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "mailto:info@stratixstudio.com",
   "class": "xl:text-3xl font-bold tracking-wide"
 }, "info@stratixstudio.com")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"py-7 xl:py-0\"> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <form class=\"w-full max-w-lg\"> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap -mx-3 mb-6\"> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\">\n\t\t\t\t        First Name\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-red-500 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Paul\">\n\t\t\t\t      <p class=\"text-red-500 text-xs italic\">Please fill out this field.</p>\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\">\n\t\t\t\t        First Name\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Naz\">\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/2 px-3\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\">\n\t\t\t\t        Last Name\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"Gebre\">\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap -mx-3 mb-6\">\n\t\t\t\t    <div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\">\n\t\t\t\t        Email\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"email\" placeholder=\"naz@gmail.com\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"w-full md:w-1/2 px-3\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\">\n\t\t\t\t        Phone number\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"+251-922744488\">\n\t\t\t\t    </div>\n\t\t\t\t  </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap -mx-3 mb-6\">\n\t\t\t\t    <div class=\"w-full md:w-full px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-city\">\n\t\t\t\t        Message\n\t\t\t\t      </label>\n\t\t\t\t      <textarea class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-city\" type=\"text\" placeholder=\"your message\" />\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-state\">\n\t\t\t\t        State\n\t\t\t\t      </label>\n\t\t\t\t      <div class=\"relative\">\n\t\t\t\t        <select class=\"block appearance-none w-full border border-black text-gray-700 py-3 px-4 pr-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-state\">\n\t\t\t\t          <option>New Mexico</option>\n\t\t\t\t          <option>Missouri</option>\n\t\t\t\t          <option>Texas</option>\n\t\t\t\t        </select>\n\t\t\t\t        <div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\">\n\t\t\t\t          <svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"/></svg>\n\t\t\t\t        </div>\n\t\t\t\t      </div>\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\">\n\t\t\t\t      <label class=\"block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2\" for=\"grid-zip\">\n\t\t\t\t        Zip\n\t\t\t\t      </label>\n\t\t\t\t      <input class=\"appearance-none block w-full text-gray-700 border border-black py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-zip\" type=\"text\" placeholder=\"90210\">\n\t\t\t\t    </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex flex-wrap mb-2\">\n\t\t\t\t  \t<button class=\"bg-black text-white px-5 py-2 tracking-wider uppercase text-sm hover:scale-105 transition ease-in delay-100\">subscribe</button>\n\t\t\t\t  </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </form> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" map "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "shadow-2xl xl:p-4"
@@ -19970,7 +19971,7 @@ var _hoisted_3 = {
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "h-screen flex justify-center justify-center items-center"
+  "class": "h-screen flex justify-center items-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mx-auto my-auto pb-56"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -20049,7 +20050,7 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-16 xl:py-20\"><div class=\"py-12\"><h2 class=\"text-center font-bold text-5xl uppercase font-poppins tracking-wide\">what we do</h2><hr class=\"w-1/6 mx-auto mt-7 border-black\"></div><!-- BRAND PURPOSE, IDENTITY &amp; INSIGHTS --><div class=\"xl:flex xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">BRAND PURPOSE, IDENTITY &amp; INSIGHTS</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:p-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> BRAND PURPOSE</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">The North Star for how, where and why the brand shows up To help define brand purpose, we start by interrogating the brand&#39;s past, understanding its present and anticipating its future. Once the brand purpose is defined, the team is able to make better decisions more quickly and with more confidence. A strong brand purpose is the first step toward building brand value over time.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> DEFINITIVE DESIGN</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Harnessing the branding power of distinctive design assets In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design - sonic and visual - is not a &quot;nice to have.&quot; It&#39;s essential to building modern, growth-driven brands.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> PEOPLE &amp; PATTERNS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Humanize the data by We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p></div></div></div><!-- DIGITAL STRATEGY --><div class=\"xl:flex xl:py-6 flex-row-reverse\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">DIGITAL STRATEGY</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:py-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-2 flex row-span-2 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 my-auto border-l-4 border-black xl:text-justify p-4\">In a landscape that’s growing increasingly complex, we’re able to help brands cut through the noise and have their digital presence stand out in a super competitive ecosystem. From strategic positioning to superlative performance, the right digital strategy is your North Star when it comes to achieving your goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> YOUR ULTIMATE DIGITAL STRATEGY PARTNER</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Being a full partner in your digital march to success, we approach your unique marketing needs from a completely fresh perspective. We take an agnostic approach and perform deep dives into all facets of the category to determine the ideal strategic approach based on your budget and goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> ANY PROJECT – NO MATTER HOW AMBITIOUS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">No project is too big, in fact we encourage clients to dream big and then make sure they have the digital strategy in place to execute on this. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, digital strategy. From complete brand launches to smaller new features with repositioning, there’s nothing we can’t handle. If you can imagine it, we can create it for you.</p></div></div></div><!-- SOCIAL MEDIA STRATEGY --><div class=\"xl:flex xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">SOCIAL MEDIA STRATEGY</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:p-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> SOCIAL CONTENT THAT GETS USERS EXCITED</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Success on social media starts with having the right strategy in place. This strategy is driven by numerous factors, including your product, goals, budgets, trends, target audience, and more. Creating a winning social media content strategy gives you a clear and actionable path to over-achieve your growth goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> OUTSHINE COMPETITORS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Working with the STRATIX team, you’ll get a deep and comprehensive view of what your competitors are doing in terms of both organic and paid social media activity, including what’s working for them and what isn’t – and then incorporating these learnings into your own social strategy.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> ULTIMATE ORGANIC &amp; PAID SOCIAL STRATEGY</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Humanize the data by We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p></div></div></div><!-- MARKETING VIDEO PRODUCTION --><div class=\"xl:flex flex-row-reverse xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><div class=\"py-4 mx-auto text-center space-y-4\"><p class=\"text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">MARKETING VIDEO PRODUCTION</p><p class=\"uppercase text-xs xl:text-sm font-light tracking-wider\">INSPIRE, INFLUENCE, EXCITE AND IMPRESS</p></div><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:py-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">A marketing video has the power to boost conversion rates by 80%, and it’s no surprise that 92% of marketers say that video is a critical part of their overall marketing strategy. Today, people don’t want to read lengthy articles or search for explanations – they just want to press play, and see everything they need in one, awesome place. At STRATIX, we offer a wide range of video production options for marketing; all planned and produced in-house.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> TV COMMERCIALS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> AMAZING CORPORATE VIDEOS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Put your best foot forward with a corporate video that’s an inspiring portrait of who your company really is. An effective corporate video allows people to connect to your brand, vision, and mission; while giving a personal touch with a lasting impact.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> POWERFUL PERSONAL BRANDING / LIVE ACTION</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">There are few more authoritative pieces of content than authentic video stories told by real people. Social proof is the greatest influencer, and personal branding videos empower you to show off the incredible person behind the camera.</p></div></div></div></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-6 xl:px-12 py-16 xl:py-20\"><div class=\"py-12\"><h2 class=\"text-center font-bold text-5xl uppercase font-poppins tracking-wide\">what we do</h2><hr class=\"w-1/6 mx-auto mt-7 border-black\"></div><!-- BRAND PURPOSE, IDENTITY &amp; INSIGHTS --><div class=\"xl:flex xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">BRAND PURPOSE, IDENTITY &amp; INSIGHTS</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:p-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">Brand identity is the true reflection that an organization portrays to its customers which includes the promise of the brand from the company to the customers assuring them of true value delivery. It is essentially a bridge built on trust and credibility between the company and the consumer.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> BRAND PURPOSE</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">The North Star for how, where and why the brand shows up To help define brand purpose, we start by interrogating the brand&#39;s past, understanding its present and anticipating its future. Once the brand purpose is defined, the team is able to make better decisions more quickly and with more confidence. A strong brand purpose is the first step toward building brand value over time.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> DEFINITIVE DESIGN</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Harnessing the branding power of distinctive design assets In this accelerated world, people make decisions in the blink of an eye, through sensory means, without thinking about it logically. Brand design - sonic and visual - is not a &quot;nice to have.&quot; It&#39;s essential to building modern, growth-driven brands.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> PEOPLE &amp; PATTERNS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p></div></div></div><!-- DIGITAL STRATEGY --><div class=\"xl:flex xl:py-6 flex-row-reverse\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">DIGITAL STRATEGY</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:py-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-2 flex row-span-2 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 my-auto border-l-4 border-black xl:text-justify p-4\">In a landscape that’s growing increasingly complex, we’re able to help brands cut through the noise and have their digital presence stand out in a super competitive ecosystem. From strategic positioning to superlative performance, the right digital strategy is your North Star when it comes to achieving your goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> YOUR ULTIMATE DIGITAL STRATEGY PARTNER</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Being a full partner in your digital march to success, we approach your unique marketing needs from a completely fresh perspective. We take an agnostic approach and perform deep dives into all facets of the category to determine the ideal strategic approach based on your budget and goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> ANY PROJECT – NO MATTER HOW AMBITIOUS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">No project is too big, in fact we encourage clients to dream big and then make sure they have the digital strategy in place to execute on this. Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, digital strategy. From complete brand launches to smaller new features with repositioning, there’s nothing we can’t handle. If you can imagine it, we can create it for you.</p></div></div></div><!-- SOCIAL MEDIA STRATEGY --><div class=\"xl:flex xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><p class=\"py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">SOCIAL MEDIA STRATEGY</p><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:p-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">We know the social media ecosystem incredibly well. You’ll benefit from this knowledge and experience as we help you come up with the perfect social media strategy and achieve your specific goals. Whether organic, paid, or both, we know how to create content that engages your users and inspires them to take action with your brand. Everything we do has quantifiable KPIs and is aimed to achieve one thing and one thing only: to get results. We send regular progress reports, including highlighting impressive numbers, areas of growth, and new opportunities.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> SOCIAL CONTENT THAT GETS USERS EXCITED</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Success on social media starts with having the right strategy in place. This strategy is driven by numerous factors, including your product, goals, budgets, trends, target audience, and more. Creating a winning social media content strategy gives you a clear and actionable path to over-achieve your growth goals.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> OUTSHINE COMPETITORS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Working with the STRATIX team, you’ll get a deep and comprehensive view of what your competitors are doing in terms of both organic and paid social media activity, including what’s working for them and what isn’t – and then incorporating these learnings into your own social strategy.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> ULTIMATE ORGANIC &amp; PAID SOCIAL STRATEGY</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Humanize the data by We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p></div></div></div><!-- MARKETING VIDEO PRODUCTION --><div class=\"xl:flex flex-row-reverse xl:py-6\"><div class=\"p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl\"><div class=\"border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center\"><hr class=\"xl:border border-white h-1/3\"><hr class=\"xl:border border-white xl:w-1/3\"><div class=\"py-4 mx-auto text-center space-y-4\"><p class=\"text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto\">MARKETING VIDEO PRODUCTION</p><p class=\"uppercase text-xs xl:text-sm font-light tracking-wider\">INSPIRE, INFLUENCE, EXCITE AND IMPRESS</p></div><hr class=\"xl:border border-white xl:w-1/2\"></div></div><div class=\"p-2 xl:py-12 xl:w-11/12 grid xl:grid-cols-4 space-y-4 py-12 xl:gap-4\"><div class=\"xl:col-span-3 space-y-4\"><p class=\"font-roboto first-letter:text-2xl tracking-wide text-gray-500 border-l-4 border-black xl:text-justify p-4\">A marketing video has the power to boost conversion rates by 80%, and it’s no surprise that 92% of marketers say that video is a critical part of their overall marketing strategy. Today, people don’t want to read lengthy articles or search for explanations – they just want to press play, and see everything they need in one, awesome place. At STRATIX, we offer a wide range of video production options for marketing; all planned and produced in-house.</p></div><div class=\"xl:col-span-4 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">01</span> TV COMMERCIALS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Craft the perfect cross-platform campaigns, that work together throughout a user’s journey; from TV to social media. These campaigns consist of a series of different kinds of videos in multiple sizes, with differentiated messaging to suit distinct needs.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">02</span> AMAZING CORPORATE VIDEOS</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">Put your best foot forward with a corporate video that’s an inspiring portrait of who your company really is. An effective corporate video allows people to connect to your brand, vision, and mission; while giving a personal touch with a lasting impact.</p></div><div class=\"xl:col-span-2 space-y-4\"><p class=\"uppercase font-bold tracking-wider\"><span class=\"text-4xl\">03</span> POWERFUL PERSONAL BRANDING / LIVE ACTION</p><hr class=\"w-8 border-2 border-black\"><p class=\"font-roboto tracking-wide font-light xl:text-justify\">There are few more authoritative pieces of content than authentic video stories told by real people. Social proof is the greatest influencer, and personal branding videos empower you to show off the incredible person behind the camera.</p></div></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], null, {
@@ -20479,106 +20480,6 @@ if ($defineProperty) {
 	module.exports.apply = applyBind;
 }
 
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nbody: {\n\t\tbackground-color: \"red\";\n}\n", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], " {").concat(content, "}");
-      }
-
-      return content;
-    }).join("");
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === "string") {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, ""]];
-    }
-
-    var alreadyImportedModules = {};
-
-    if (dedupe) {
-      for (var i = 0; i < this.length; i++) {
-        // eslint-disable-next-line prefer-destructuring
-        var id = this[i][0];
-
-        if (id != null) {
-          alreadyImportedModules[id] = true;
-        }
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = [].concat(modules[_i]);
-
-      if (dedupe && alreadyImportedModules[item[0]]) {
-        // eslint-disable-next-line no-continue
-        continue;
-      }
-
-      if (mediaQuery) {
-        if (!item[2]) {
-          item[2] = mediaQuery;
-        } else {
-          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
-        }
-      }
-
-      list.push(item);
-    }
-  };
-
-  return list;
-};
 
 /***/ }),
 
@@ -28946,315 +28847,6 @@ module.exports = function getSideChannel() {
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=style&index=0&id=6a63e488&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var isOldIE = function isOldIE() {
-  var memo;
-  return function memorize() {
-    if (typeof memo === 'undefined') {
-      // Test for IE <= 9 as proposed by Browserhacks
-      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-      // Tests for existence of standard globals is to allow style-loader
-      // to operate correctly into non-standard environments
-      // @see https://github.com/webpack-contrib/style-loader/issues/177
-      memo = Boolean(window && document && document.all && !window.atob);
-    }
-
-    return memo;
-  };
-}();
-
-var getTarget = function getTarget() {
-  var memo = {};
-  return function memorize(target) {
-    if (typeof memo[target] === 'undefined') {
-      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
-
-      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
-        try {
-          // This will throw an exception if access to iframe is blocked
-          // due to cross-origin restrictions
-          styleTarget = styleTarget.contentDocument.head;
-        } catch (e) {
-          // istanbul ignore next
-          styleTarget = null;
-        }
-      }
-
-      memo[target] = styleTarget;
-    }
-
-    return memo[target];
-  };
-}();
-
-var stylesInDom = [];
-
-function getIndexByIdentifier(identifier) {
-  var result = -1;
-
-  for (var i = 0; i < stylesInDom.length; i++) {
-    if (stylesInDom[i].identifier === identifier) {
-      result = i;
-      break;
-    }
-  }
-
-  return result;
-}
-
-function modulesToDom(list, options) {
-  var idCountMap = {};
-  var identifiers = [];
-
-  for (var i = 0; i < list.length; i++) {
-    var item = list[i];
-    var id = options.base ? item[0] + options.base : item[0];
-    var count = idCountMap[id] || 0;
-    var identifier = "".concat(id, " ").concat(count);
-    idCountMap[id] = count + 1;
-    var index = getIndexByIdentifier(identifier);
-    var obj = {
-      css: item[1],
-      media: item[2],
-      sourceMap: item[3]
-    };
-
-    if (index !== -1) {
-      stylesInDom[index].references++;
-      stylesInDom[index].updater(obj);
-    } else {
-      stylesInDom.push({
-        identifier: identifier,
-        updater: addStyle(obj, options),
-        references: 1
-      });
-    }
-
-    identifiers.push(identifier);
-  }
-
-  return identifiers;
-}
-
-function insertStyleElement(options) {
-  var style = document.createElement('style');
-  var attributes = options.attributes || {};
-
-  if (typeof attributes.nonce === 'undefined') {
-    var nonce =  true ? __webpack_require__.nc : 0;
-
-    if (nonce) {
-      attributes.nonce = nonce;
-    }
-  }
-
-  Object.keys(attributes).forEach(function (key) {
-    style.setAttribute(key, attributes[key]);
-  });
-
-  if (typeof options.insert === 'function') {
-    options.insert(style);
-  } else {
-    var target = getTarget(options.insert || 'head');
-
-    if (!target) {
-      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
-    }
-
-    target.appendChild(style);
-  }
-
-  return style;
-}
-
-function removeStyleElement(style) {
-  // istanbul ignore if
-  if (style.parentNode === null) {
-    return false;
-  }
-
-  style.parentNode.removeChild(style);
-}
-/* istanbul ignore next  */
-
-
-var replaceText = function replaceText() {
-  var textStore = [];
-  return function replace(index, replacement) {
-    textStore[index] = replacement;
-    return textStore.filter(Boolean).join('\n');
-  };
-}();
-
-function applyToSingletonTag(style, index, remove, obj) {
-  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
-
-  /* istanbul ignore if  */
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = replaceText(index, css);
-  } else {
-    var cssNode = document.createTextNode(css);
-    var childNodes = style.childNodes;
-
-    if (childNodes[index]) {
-      style.removeChild(childNodes[index]);
-    }
-
-    if (childNodes.length) {
-      style.insertBefore(cssNode, childNodes[index]);
-    } else {
-      style.appendChild(cssNode);
-    }
-  }
-}
-
-function applyToTag(style, options, obj) {
-  var css = obj.css;
-  var media = obj.media;
-  var sourceMap = obj.sourceMap;
-
-  if (media) {
-    style.setAttribute('media', media);
-  } else {
-    style.removeAttribute('media');
-  }
-
-  if (sourceMap && typeof btoa !== 'undefined') {
-    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
-  } // For old IE
-
-  /* istanbul ignore if  */
-
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    while (style.firstChild) {
-      style.removeChild(style.firstChild);
-    }
-
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var singleton = null;
-var singletonCounter = 0;
-
-function addStyle(obj, options) {
-  var style;
-  var update;
-  var remove;
-
-  if (options.singleton) {
-    var styleIndex = singletonCounter++;
-    style = singleton || (singleton = insertStyleElement(options));
-    update = applyToSingletonTag.bind(null, style, styleIndex, false);
-    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-  } else {
-    style = insertStyleElement(options);
-    update = applyToTag.bind(null, style, options);
-
-    remove = function remove() {
-      removeStyleElement(style);
-    };
-  }
-
-  update(obj);
-  return function updateStyle(newObj) {
-    if (newObj) {
-      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
-        return;
-      }
-
-      update(obj = newObj);
-    } else {
-      remove();
-    }
-  };
-}
-
-module.exports = function (list, options) {
-  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-  // tags it will allow on a page
-
-  if (!options.singleton && typeof options.singleton !== 'boolean') {
-    options.singleton = isOldIE();
-  }
-
-  list = list || [];
-  var lastIdentifiers = modulesToDom(list, options);
-  return function update(newList) {
-    newList = newList || [];
-
-    if (Object.prototype.toString.call(newList) !== '[object Array]') {
-      return;
-    }
-
-    for (var i = 0; i < lastIdentifiers.length; i++) {
-      var identifier = lastIdentifiers[i];
-      var index = getIndexByIdentifier(identifier);
-      stylesInDom[index].references--;
-    }
-
-    var newLastIdentifiers = modulesToDom(newList, options);
-
-    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
-      var _identifier = lastIdentifiers[_i];
-
-      var _index = getIndexByIdentifier(_identifier);
-
-      if (stylesInDom[_index].references === 0) {
-        stylesInDom[_index].updater();
-
-        stylesInDom.splice(_index, 1);
-      }
-    }
-
-    lastIdentifiers = newLastIdentifiers;
-  };
-};
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/dist/exportHelper.js":
 /*!******************************************************!*\
   !*** ./node_modules/vue-loader/dist/exportHelper.js ***!
@@ -29613,16 +29205,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=6a63e488 */ "./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
 /* harmony import */ var _Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js");
-/* harmony import */ var _Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=6a63e488&lang=css */ "./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css");
-/* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-
-
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_STRATIX_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -30023,19 +29612,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavLink_vue_vue_type_template_id_6c59dede__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavLink_vue_vue_type_template_id_6c59dede__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./NavLink.vue?vue&type=template&id=6c59dede */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/NavLink.vue?vue&type=template&id=6c59dede");
-
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css ***!
-  \*********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=style&index=0&id=6a63e488&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css");
 
 
 /***/ }),
@@ -30497,18 +30073,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21.1","_id":"axios@0.21.4","_inB
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -30610,11 +30174,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21.1","_id":"axios@0.21.4","_inB
 /******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/

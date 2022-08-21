@@ -867,9 +867,6 @@ video {
 .p-4 {
   padding: 1rem;
 }
-.p-7 {
-  padding: 1.75rem;
-}
 .p-2 {
   padding: 0.5rem;
 }
@@ -923,13 +920,13 @@ video {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -951,9 +948,6 @@ video {
 }
 .pt-7 {
   padding-top: 1.75rem;
-}
-.pb-12 {
-  padding-bottom: 3rem;
 }
 .text-center {
   text-align: center;
@@ -1016,9 +1010,6 @@ video {
 }
 .leading-tight {
   line-height: 1.25;
-}
-.leading-6 {
-  line-height: 1.5rem;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
@@ -1257,10 +1248,6 @@ video {
 
   .xl\:justify-between {
     justify-content: space-between;
-  }
-
-  .xl\:gap-8 {
-    gap: 2rem;
   }
 
   .xl\:gap-4 {
