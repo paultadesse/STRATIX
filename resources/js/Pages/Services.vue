@@ -16,7 +16,7 @@
 		<!-- BRAND PURPOSE, IDENTITY & INSIGHTS -->
 		<div class="xl:flex xl:py-6">
 			<div class="p-2 xl:p-4 flex justify-center items-center bg-black text-white xl:row-span-3 shadow-2xl">
-				<div class="border border-2 xl:border-8 border-white h-full w-full flex flex-col items-center">
+				<div class="border-2 xl:border-8 border-white h-full w-full flex flex-col items-center">
 						<hr class="xl:border border-white h-1/3">
 						<hr class="xl:border border-white xl:w-1/3">
 						<p class="py-4 text-xl xl:text-5xl mx-auto text-center uppercase font-bold tracking-wider font-roboto">BRAND PURPOSE, IDENTITY & INSIGHTS</p>
@@ -46,7 +46,7 @@
 					<div class="xl:col-span-2 space-y-4">
 						<p class="uppercase font-bold tracking-wider"><span class="text-4xl">03</span> PEOPLE & PATTERNS</p>
 						<hr class="w-8 border-2 border-black">
-						<p class="font-roboto tracking-wide font-light xl:text-justify">Humanize the data by We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p>
+						<p class="font-roboto tracking-wide font-light xl:text-justify">We use data to map behaviors and recognize patterns emerging in the world, both within the category and those that are specific to the business and the brand. With that knowledge, we uncover the most significant opportunities to maximize how and when people engage.</p>
 					</div>
 
 			</div>
