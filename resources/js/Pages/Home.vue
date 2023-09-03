@@ -1,7 +1,7 @@
 <template>
 	<Head>
 		<title>Design thinking agency with a multi-disciplinary approach to crafting winning solutions for clients</title>
-		<meta 
+		<meta
 			name="description"
 			content="Whether you’re a large multinational brand or a high-growth startup, we’ll craft your ultimate, achievable, strategy. From complete brand launches to smaller new features with repositioning"
 			head-key="description"
@@ -11,7 +11,7 @@
 	<div class="relative">
 		<div class="h-screen flex justify-center items-center">
 			<div class="mx-auto my-auto pb-56">
-				<img class="xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100" alt="stratix logo" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
+				<img class="xl:hidden mx-auto h-52 xl:h-56 hover:scale-125 transition ease-in delay-100" alt="Stratix Studio" src="@/../assets/images/stratix_logo/STRATIX_LOGO_BLACK_ON_WHITE.svg">
 				<h2 class=" z-10 text-3xl xl:text-7xl uppercase max-w-sm xl:max-w-3xl text-center font-bold tracking-wider hover:scale-105 transition ease-in delay-100 font-poppins">A DESIGN THINKING AGENCY</h2>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 
 	<!-- <div class="py-7 px-6 xl:px-12">
 		<div class="space-y-4">
-			
+
 			<div class="grid grid-cols-6 gap-4 place-items-center content-center">
 				<div class="xl:col-span-3 bg-black h-full xl:row-span-2 col-span-6 flex items-center">
 					<img class="hover:scale-105 transition ease-in delay-100" src="@/../assets/images/others/multi_ethnic_diverse_businesspeople_working_in_bus_2022_02_14_15.png">
@@ -128,7 +128,7 @@
 		          		</div>
 					</div>
 				</div>
-				
+
 			</div>
 
 		</div>
